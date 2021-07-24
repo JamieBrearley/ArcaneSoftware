@@ -15,8 +15,7 @@
     <!-- Google Analytics -->
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/global.css">
 
     <!-- Font Awesome -->
@@ -37,8 +36,7 @@
             </div>
             <div class="header-email">
                 <a class="header-text" href="mailto:hello@ArcaneSoftware.com.au">hello@ArcaneSoftware.com.au</a>
-                <a class="header-icons-visible" href="mailto:hello@ArcaneSoftware.com.au"><i
-                        class="fas fa-envelope-open"></i></a>
+                <a class="header-icons-visible" href="mailto:hello@ArcaneSoftware.com.au"><i class="fas fa-envelope-open"></i></a>
             </div>
             <div>
                 <p class="header-text">Google Reviews</p>
@@ -62,12 +60,10 @@
                 <!-- <img src="https://arcanesoftware.com.au" alt="ArcaneSoftware"> -->
                 <strong class="brand-name">Arcane Software</strong>
             </a>
-            <button type="button" class="hamburger-menu" data-bs-toggle="collapse" data-bs-target="#nav-ul"
-                aria-controls="nav-ul" aria-expanded="false" aria-label="Toggle navigation">
+            <button type="button" class="hamburger-menu" data-bs-toggle="collapse" data-bs-target="#nav-ul" aria-controls="nav-ul" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div id="nav-ul" class="nav-ul collapse" id="navbar-tabs" aria-label="navigation menu"
-                data-parent="nav-header">
+            <div id="nav-ul" class="nav-ul collapse" id="navbar-tabs" aria-label="navigation menu" data-parent="nav-header">
                 <ul>
                     <li>
                         <a href=" http://">Home</a>
@@ -159,7 +155,7 @@
 
         <section>
             <h3 class="overline">From conversion focused design to organic & paid traffic</h3>
-            <h1>Why companies <span>choose</span> to work with start digital</h1>
+            <h1>Why companies <span>choose</span> to work with Arcane Software</h1>
             <div>
                 <h6>Research Driven</h6>
                 <hr>
@@ -286,11 +282,11 @@
             </div>
         </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
-        window.onscroll = function () { navScroll() };
+        window.onscroll = function() {
+            navScroll()
+        };
 
         let header = document.getElementById('nav-header');
         let main = document.getElementById('main');
