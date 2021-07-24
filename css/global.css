@@ -1,0 +1,353 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --blue: #0e83cd;
+  --whiteText: whitesmoke;
+  --red: red;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--whiteText);
+  font-family: "Poppins", "Trebuchet MS", "Verdana", sans-serif;
+  opacity: 0;
+  animation: fadeInOpacity 2s forwards;
+
+  font-size: 14px;
+  font-weight: 300;
+
+  padding: 0 2%;
+}
+
+.brand-name {
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+/* ***************************
+**      Header
+*************************** */
+header * {
+  display: flex;
+  color: var(--whiteText);
+  align-items: center;
+
+  padding: 0;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border-radius: 20px;
+  background-color: none;
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header a:hover {
+  background-color: var(--whiteText);
+}
+
+header .info-header {
+  margin: 10px 0;
+}
+
+header .info-header,
+header .nav-header {
+  background-color: var(--blue);
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+header .header-text {
+  display: none;
+  padding: 5px 10px;
+}
+
+/* ***************************
+*   Info Header 
+*************************** */
+
+header .info-header {
+  justify-content: center;
+}
+
+header .info-header .header-socials {
+  justify-content: center;
+  display: flex;
+}
+
+header .info-header .header-socials a {
+  padding: 0px;
+  margin-right: 10px;
+}
+
+header .info-header .header-icons-visible {
+  margin-right: 10px;
+}
+
+header .info-header .header-email {
+  margin-right: 30px;
+}
+
+header i {
+  color: var(--whiteText);
+  padding: 5px 5px;
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header i:hover {
+  color: var(--blue);
+}
+
+/* ***************************
+*   Navigation Header 
+*************************** */
+
+header .nav-header {
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+header .nav-header.sticky {
+  position: fixed;
+  top: 5px;
+  width: 96%;
+}
+
+.stickybuffer {
+  padding-top: 108px;
+}
+
+header .nav-header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header .nav-dropdown {
+  display: none;
+}
+
+header .nav-header a {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+header button {
+  background: none;
+  padding: 5px;
+  border: none;
+}
+
+header button i:hover {
+  color: var(--whiteText);
+}
+
+header button i {
+  font-size: 24px;
+}
+
+header .contactBtn {
+  display: none;
+  padding: 5px 10px;
+  background: none;
+  border: 2px solid white;
+  color: var(--whiteText);
+  z-index: 0;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+}
+
+header .contactBtn:hover {
+  color: var(--blue);
+}
+
+header .contactBtn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background: var(--whiteText);
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header .contactBtn:hover:after,
+header .contactBtn:hover:after {
+  width: 100%;
+}
+
+header .hamburger-menu {
+  display: flex;
+  color: var(--whiteText);
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    padding: 0 12%;
+  }
+
+  header .nav-header.sticky {
+    width: 76%;
+  }
+
+  header .brand-name {
+    font-size: 1.5rem;
+  }
+
+  header .info-header {
+    justify-content: space-between;
+  }
+
+  header .info-header .header-icons-visible {
+    display: none;
+  }
+
+  header .info-header .header-text {
+    display: flex;
+  }
+
+  header .info-header .header-email {
+    margin-right: 0px;
+  }
+
+  header button {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  header .hamburger-menu {
+    display: none;
+  }
+
+  header #nav-ul {
+    display: flex !important;
+  }
+}
+
+/* ***************************
+**      Footer
+*************************** */
+
+footer {
+  background-color: var(--blue);
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  color: var(--whiteText);
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer li:not(:first-of-type) {
+  padding-left: 10px;
+}
+
+footer a {
+  display: inline-block;
+  color: var(--whiteText);
+  text-decoration: none;
+  padding: 2px 8px;
+  border-radius: 20px;
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+footer a:hover {
+  color: var(--blue);
+  background-color: var(--whiteText);
+}
+
+footer li a:hover {
+  transform: translateX(5px);
+}
+
+footer .company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer .inline-links span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer p {
+  margin-bottom: 4px;
+}
+
+footer .brand-name {
+  margin-bottom: 10px;
+}
+
+footer #tagline {
+  margin-top: 4px;
+
+  font-size: 1.1rem;
+}
+footer section:first-of-type {
+  margin-bottom: 20px;
+}
+
+/* ***************************
+**      Other Elements
+*************************** */
+
+hr {
+  opacity: 1;
+  color: var(--blue);
+  width: 200px;
+  margin: auto;
+}
+
+/* ***************************
+**      Animation
+*************************** */
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
