@@ -59,7 +59,7 @@
         <!-- navigation bar - Logo -> Home, about, portfolio, services, resources -> contact button -->
         <nav id="nav-header" class="navbar nav-header">
             <a href="https://arcanesoftware.com.au" title="home">
-                <!-- <img src="https://arcanesoftware.com.au" alt="ArcaneSoftware"> -->
+                <!-- <img src="/assets/" alt="ArcaneSoftware"> -->
                 <strong class="brand-name">Arcane Software</strong>
             </a>
             <button type="button" class="hamburger-menu" data-bs-toggle="collapse" data-bs-target="#nav-ul"
@@ -101,10 +101,16 @@
         </nav>
     </header>
     <main id="main" class="content">
+        <div class="w-100" id="coverImage">
+            <img class="" src="assets/img/home_bg_1920.jpg"
+                srcset="assets/img/home_bg_3840 3840w, assets/img/home_bg_1920.jpg 1920w, assets/img/home_bg_960.jpg 960w,assets/img/home_bg_480.jpg 480w,assets/img/home_bg_240.jpg 240w"
+                sizes="100vw" alt="website development">
+        </div>
         <section>
             <h1>Exceptional web design that will <span>set you apart</span> from the competition</h1>
             <p>
-                We make Australian businesses attractive and take flight through SEO, web design, digital marketing, and
+                We make Australian businesses attractive and take flight through SEO, web design, digital marketing,
+                and
                 social media.
             </p>
             <button type="button">Free consultation and quote</button>
@@ -116,7 +122,8 @@
         <section>
             <h1>Get ahead of the competition with everything <span>digital!</span></h1>
             <p>
-                Our designers, data-driven marketers, and digital wizards understand what it takes to get results and
+                Our designers, data-driven marketers, and digital wizards understand what it takes to get results
+                and
                 help a
                 business reach its full potential. There are no binding contracts, no fine print, and no aggressive
                 salespeople.
@@ -129,16 +136,19 @@
 
             <h1>A results-driven development agency based in <span>Brisbane.</span></h1>
             <p>
-                It's more vital than ever for web design companies and online marketers to help their clients stand out
+                It's more vital than ever for web design companies and online marketers to help their clients stand
+                out
                 from
-                the crowd. Arcane Software is dedicated to providing quality performance that turn visitors into paying
+                the crowd. Arcane Software is dedicated to providing quality performance that turn visitors into
+                paying
                 clients. We make sure your business stands out online in a world when attention spans are becoming
                 increasingly shorter.
             </p>
             <div>
                 <img src="" alt="">
                 <p>
-                    We will boost site traffic and online inquiries with a precision Google Ad campaign and a systematic
+                    We will boost site traffic and online inquiries with a precision Google Ad campaign and a
+                    systematic
                     approach to SEO.
                 </p>
             </div>
@@ -151,8 +161,10 @@
             <div>
                 <img src="" alt="">
                 <p>
-                    Move to digital to save money on inadequate or obsolete marketing methods. We'll offer suggestions
-                    for low-cost internet marketing methods that can boost traffic and conversions. Saving you money.
+                    Move to digital to save money on inadequate or obsolete marketing methods. We'll offer
+                    suggestions
+                    for low-cost internet marketing methods that can boost traffic and conversions. Saving you
+                    money.
                 </p>
             </div>
         </section>
@@ -163,35 +175,38 @@
             <h3 class="overline">From conversion-focused design to organic and sponsored traffic.</h3>
             <h1>Why clients <span>choose</span> Arcane Software</h1>
             <div class="row justify-content-evenly">
-                <div class="col-lg-3 col-sm-6 titleBlock">
-                    <h6>Research Driven</h6>
+                <div class="col-md-4 col-6 titleBlock">
+                    <h5>Research Driven</h5>
                     <hr>
-                    <p>
+                    <p class="mb-5">
                         We take the time to understand your business and the competitive space so we can deliver
                         beautiful websites and marketing strategies that deliver results.
                     </p>
-                </div>
-                <div class="col-lg-3 col-sm-6 titleBlock">
-                    <h6>Customer Service</h6>
+                    <h5>Customer Service</h5>
                     <hr>
                     <p>
                         We are passionate enthusiasts that want to be a part of ambitious projects with clients who
                         value pleasant, honest professional relationships.
                     </p>
                 </div>
-                <div class="col-lg-3 col-sm-6 titleBlock">
-                    <h6>Expertise</h6>
+                <div class="col-md-4 d-md-block d-none imgBlock my-5">
+                    <img src="assets/img/professional_1920.jpg"
+                        srcset="assets/img/professional_1920.jpg 1920w, assets/img/professional_960.jpg 960w,assets/img/professional_480.jpg 480w,assets/img/professional_240.jpg 240w"
+                        sizes="(max-width: 600px) 480px, 100vw" alt="Professional">
+                </div>
+                <div class="col-md-4 col-6 titleBlock">
+                    <h5>Expertise</h5>
                     <hr>
-                    <p>
-                        Our crew has been involved with technology for decades. We're an open book, and we're interested
+                    <p class="mb-5">
+                        Our crew has been involved with technology for decades. We're an open book, and we're
+                        interested
                         in sharing our expertise to help you make better decisions.
                     </p>
-                </div>
-                <div class="col-lg-3 col-sm-6 titleBlock">
-                    <h6>Results Driven</h6>
+                    <h5>Results</h5>
                     <hr>
                     <p>
-                        Words are important, but acts are more important. We strive for complete customer satisfaction;
+                        Words are important, but acts are more important. We strive for complete customer
+                        satisfaction;
                         if you are dissatisfied with our services, we will do all in our power to make it right.
                     </p>
                 </div>
@@ -229,7 +244,6 @@
             </div>
         </section>
     </main>
-    <img class="footerFade" alt="">
     <footer>
         <section class="row justify-content-evenly">
             <div class="col-xl-6 text-center company-info">
@@ -294,13 +308,18 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script>
-        window.onscroll = function () {
-            navScroll()
-        };
+        window.addEventListener('scroll', navScroll);
+        window.addEventListener('scroll', coverImageScroll);
 
+        let coverImage = document.getElementById('coverImage');
         let header = document.getElementById('nav-header');
         let main = document.getElementById('main');
         let sticky = header.offsetTop;
+
+        function coverImageScroll() {
+            let value = window.scrollY;
+            coverImage.style.top = 140 + value * 0.5 + 'px';
+        }
 
         function navScroll() {
             if (window.pageYOffset > sticky) {
@@ -313,25 +332,6 @@
         }
     </script>
     <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "102753982088752");
-        chatbox.setAttribute("attribution", "biz_inbox");
-
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v11.0'
-            });
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
     </script>
 </body>
 

@@ -2,12 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
-:root {
+/* :root {
   --primary: hsl(0, 0%, 20%);
   --secondary: hsl(0, 98%, 48%);
   --hoverColor: black;
+  --box-shadow: lime;
   --text: hsl(0, 0%, 30%);
   --background: #fdfffc;
+} */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary: rgb(229, 124, 255);
+  --secondary: hsl(224, 100%, 66%);
+  --hoverColor: white;
+  --box-shadow: grey;
+  --text: hsl(0, 0%, 70%);
+  --background: #0f0f0f;
 }
 
 * {
@@ -21,6 +38,7 @@ body {
 
   font-size: 14px;
   font-weight: 300;
+  animation: fadeInOpacity 2s forwards;
 }
 
 .brand-name {
@@ -56,15 +74,17 @@ header a {
   border-radius: 20px;
   background-color: none;
 
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 header a:hover {
-  color: var(--background);
-  box-shadow: 0px 0px 18px 3px var(--hoverColor);
-  background-color: var(--hoverColor);
+  color: var(--secondary);
+  /* var(--background); */
+  /* box-shadow: 0px 0px 15px 3px var(--box-shadow); */
+  font-weight: 600;
+  /* background-color: var(--hoverColor); */
   background-blend-mode: overlay;
 }
 
@@ -119,7 +139,7 @@ header i {
 }
 
 header i:hover {
-  color: var(--background);
+  color: var(--secondary);
 }
 
 /* ***************************
@@ -137,7 +157,7 @@ header .nav-header {
 }
 
 header .nav-header.sticky {
-  box-shadow: 5px 10px 18px var(--hoverColor);
+  box-shadow: 0px 0px 15px 3px var(--box-shadow);
   position: fixed;
   top: 5px;
   width: 96%;
@@ -145,7 +165,7 @@ header .nav-header.sticky {
 }
 
 .stickybuffer {
-  padding-top: 108px;
+  padding-top: 66px;
 }
 
 header .nav-header ul {
@@ -292,7 +312,7 @@ header #nav-ul ul {
 *************************** */
 
 footer {
-  background-color: hsl(0, 0%, 80%);
+  background-color: hsl(0, 0%, 5%);
 
   padding-top: 35px;
   padding-bottom: 20px;
@@ -325,9 +345,9 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--background);
-  box-shadow: 0px 0px 18px 3px var(--hoverColor);
-  background-color: var(--hoverColor);
+  color: var(--secondary);
+  /* box-shadow: 0px 0px 15px 3px var(--box-shadow); */
+  /* background-color: var(--hoverColor); */
 }
 
 footer li a:hover {
@@ -353,29 +373,50 @@ footer p {
 
 footer #tagline {
   margin-top: 4px;
-
   font-size: 1.1rem;
 }
 footer section:first-of-type {
   margin-bottom: 20px;
 }
 
-img.footerFade {
-  background-image: url(../assets/img/footerFade.jpg);
+div#coverImage {
+  top: 140px;
+  position: absolute;
   height: 42.18vw;
-  max-height: 300px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  width: 100vw;
+  max-height: 75vh;
+}
+
+div#coverImage img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
 }
 
 /* ***************************
 **      Main
 *************************** */
 
+main section:first-of-type {
+  margin-top: min(42.18vw, 75vh);
+  padding-top: 1rem;
+}
+/* main section:first-of-type {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  opacity: 0.5;
+} */
+
 main section:last-of-type {
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 10%);
 }
 
 main h1,
@@ -409,6 +450,7 @@ main h1 span {
 main section {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: var(--background);
 
   display: flex;
   flex-direction: column;
@@ -446,7 +488,7 @@ main button {
 main button:hover {
   background-color: var(--hoverColor);
   border: 1px solid var(--hoverColor);
-  box-shadow: 0px 0px 15px 10px var(--hoverColor);
+  box-shadow: 0px 0px 15px 3px var(--box-shadow);
 }
 
 main button:after {
@@ -518,6 +560,33 @@ main .titleBlock h6 {
   margin-bottom: 5px;
 }
 
+/* main .imgBlock {
+  position: relative;
+} */
+
+main .imgBlock img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+/* div#coverImage {
+  top: 140px;
+  position: absolute;
+  height: 42.18vw;
+  max-height: 75vh;
+}
+
+div#coverImage img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
+} */
+
 /* ***************************
 **      Other Elements
 *************************** */
@@ -533,7 +602,7 @@ hr {
 **      Animation
 *************************** */
 
-/* @keyframes fadeInOpacity {
+@keyframes fadeInOpacity {
   0% {
     opacity: 0;
   }
@@ -541,4 +610,4 @@ hr {
   100% {
     opacity: 1;
   }
-} */
+}
