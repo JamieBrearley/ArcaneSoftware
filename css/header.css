@@ -1,0 +1,196 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body,
+.offcanvas {
+  background-color: var(--background);
+}
+
+header .offcanvas.show {
+  transform: none;
+  opacity: 1;
+}
+
+header .offcanvas-start {
+  top: 0;
+  left: 0;
+  width: 300px;
+  transform: translateX(-100%);
+}
+
+header .offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  opacity: 0;
+  background-clip: padding-box;
+  color: var(--linkColor);
+  transition: all 0.3s ease-in-out;
+  border-right: 1px solid var(--linkColor);
+
+  text-transform: uppercase;
+}
+
+header .offcanvas a {
+  color: var(--linkColor);
+  text-decoration: none;
+}
+
+header .offcanvas a:hover {
+  color: var(--highlight);
+}
+
+header .offcanvas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+header .offcanvas li {
+  padding: 4px 0 4px 10px;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+
+header .offcanvas li:first-of-type {
+  padding-left: 0;
+}
+
+header .offcanvas li:not(:first-of-type) {
+  font-size: 14px;
+}
+
+header .offcanvas li:not(:first-of-type):hover {
+  transform: translateX(10px);
+}
+
+header .offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 80px;
+}
+
+header .offcanvas-header .hamburgerClose,
+.hamburgerBtn {
+  padding: 0;
+  margin-top: -0.5rem;
+  margin-right: -0.5rem;
+  margin-bottom: -0.5rem;
+
+  background: none;
+  border: none;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+header .offcanvas-header .hamburgerClose {
+  width: 2em;
+  height: 2em;
+}
+
+.hamburgerBtn {
+  width: 3em;
+  height: 3em;
+}
+
+header .offcanvas-header .hamburgerClose svg,
+.hamburgerBtn svg {
+  width: 100%;
+  height: 100%;
+}
+
+header .offcanvas-title {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .offcanvas-title h5 {
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 0.8;
+  color: inherit;
+}
+
+header .offcanvas-title img {
+  height: 100%;
+  margin-right: 1rem;
+}
+
+header .offcanvas-body {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+header .offcanvas-footer {
+  padding: 1rem 0;
+}
+
+header .offcanvas-body h6:first-of-type {
+  margin-top: 0;
+}
+
+header h5 {
+  text-align: start;
+}
+
+header h6 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+
+  text-align: start;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+header .offcanvas-footer .header-socials {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+header .offcanvas .company-info li {
+  text-align: center;
+}
+
+header .offcanvas .company-info li:hover {
+  transform: none !important;
+}
+
+.hamburgerBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+@media (min-width: 1100px) {
+  header .offcanvas {
+    transform: none;
+    opacity: 1;
+  }
+
+  header .offcanvas-header button.hamburgerClose,
+  .hamburgerBtn {
+    display: none;
+  }
+}
