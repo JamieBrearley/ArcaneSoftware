@@ -64,6 +64,18 @@
   src: url("../fonts/space_age.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "PermanentMarker";
+  src: url("../fonts/PermanentMarker-Regular.ttf") format("truetype");
+}
+
+:root {
+  --highlight: hsl(273, 100%, 70%);
+  --linkColor: hsl(273, 100%, 80%);
+  --textColor: hsl(273, 100%, 80%);
+  --background: hsl(273, 100%, 5%);
+}
+
 *,
 *:before,
 *:after {
@@ -71,8 +83,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
-  vertical-align: baseline;
 }
 
 html,
@@ -82,28 +92,30 @@ body {
 }
 
 body {
+  opacity: 0;
   font-family: Roobert, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-feature-settings: "tnum" 1, "ss03" 1;
   -webkit-font-smoothing: antialiased;
+
+  transition: opacity 1s ease-in;
+  -webkit-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
 }
 
-h1,
-h2 {
-  font-weight: 600;
+.brand-name {
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "SonySketch";
 }
 
-input {
-  font-family: Roobert, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-variant-numeric: tabular-nums;
+[type="button"]:not(:disabled) {
+  cursor: pointer;
 }
 
-strong {
-  font-weight: 600;
-}
-
-.anime-mini-logo {
-  width: 100px;
-  height: 24px;
-  transform: scaleY(0.5);
+@media (min-width: 768px) {
+  body {
+    margin-left: 300px !important;
+  }
 }
