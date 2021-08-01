@@ -30,9 +30,16 @@
         </section>
         <section>
             <h2>Accessability</h2>
+            <p>As we touched on in SEO, by makeing the design simpler and hiding the code </p>
         </section>
         <section>
             <h2>Site Management</h2>
+        </section>
+        <section>
+            <h2>Ownership</h2>
+        </section>
+        <section>
+            <h2>Efficiency</h2>
         </section>
     </main>
 
