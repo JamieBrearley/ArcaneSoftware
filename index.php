@@ -2,87 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php require_once('inc/head.php'); ?>
     <title>Arcane Software</title>
 
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <meta name="description"
-        content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. We use a combination of data analysis, technical intellect, and web expertise to make intelligent, informed decisions that help your business expand and grow online, from Search Engine Optimisation (SEO) to Social Media management and eye-catching web design.">
+    <meta name="description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. We use a combination of data analysis, technical intellect, and web expertise to make intelligent, informed decisions that help your business expand and grow online, from Search Engine Optimisation (SEO) to Social Media management and eye-catching web design.">
 </head>
 
 <body style="opacity: 0;">
-    <header>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="hamburgerMenu" aria-labelledby="hamburgerMenuLabel">
-            <div class="offcanvas-header">
-                <a class="offcanvas-title" href="https://arcanesoftware.com.au/">
-                    <img src="assets/logo/logo_only.svg" alt="Arcane Software Logo">
-                    <h5 class="text-center brand-name" id="hamburgerMenuLabel">Arcane <span>Software</span></h5>
-                </a>
-                <button type="button" class="hamburgerClose" data-bs-dismiss="offcanvas" aria-label="Close">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                        fill="#d199ff">
-                        <path d="M0 0h24v24H0V0z" fill="none" />
-                        <path
-                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
-                    </svg>
-                </button>
-            </div>
-            <div class="offcanvas-body small">
-                <ul>
-                    <li>
-                        <h6>Creation</h6>
-                    </li>
-                    <li><a href="pages/creation/web_design.html">Web Design</a></li>
-                    <li><a href="pages/creation/web-dev.html">Web Development</a></li>
-                    <li><a href="pages/creation/ecommerce_design.html">eCommerece Web Design</a></li>
-                    <li><a href="pages/creation/website_photography.html">Website Photography</a></li>
-                    <li><a href="pages/creation/wordpress_websites.html">WordPress Websites</a></li>
-                    <li><a href="pages/creation/website_hosting.html">Website Hosting</a></li>
-                    <li><a href="pages/creation/graphic_design.html">Graphic Design</a></li>
-                    <li><a href="pages/creation/website_management.html">Website Management</a></li>
-                </ul>
-                <ul>
-                    <li>
-                        <h6>Marketing</h6>
-                    </li>
-                    <li><a href="pages/marketing/seo.html">Search Engine Optimisation (SEO)</a></li>
-                    <li><a href="pages/marketing/social_media.html">Social Media</a></li>
-                    <li><a href="pages/marketing/content_marketing.html">Content Marketing</a></li>
-                    <li><a href="pages/marketing/digital_marketing.html">Digital Marketing Agency</a></li>
-                    <li><a href="pages/marketing/google_ads_adwords.html">Google Ads / Adwords</a></li>
-                    <li><a href="pages/marketing/messenger_bots.html">Messenger Bots</a></li>
-                </ul>
-            </div>
-            <div class="offcanvas-footer small">
-                <ul class="col-xl-6 company-info">
-                    <li><a href="tel:+1300 000 000">1300 000 000</a></li>
-                    <li><a href="mailto:hello@ArcaneSoftware.com.au">hello@ArcaneSoftware.com.au</a></li>
-                </ul>
-                <div class="header-socials">
-                    <a href="https://www.facebook.com/ArcaneSoftwareAU" target="_blank" alt="Facebook">
-                        <i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/arcanesoftware/" target="_blank" alt="Instagram">
-                        <i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/Arcane_Software" target="_blank" alt="Twitter">
-                        <i class="fab fa-twitter"></i></a>
-                    <a href="https://wa.me/message/MW5I2D3HW5M7L1" target="_blank" alt="Whats App">
-                        <i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.linkedin.com/company/arcane-software" target="_blank" alt="Linkedin">
-                        <i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.tiktok.com/@arcanesoftware" target="_blank" alt="TikTok">
-                        <i class="fab fa-tiktok"></i></a>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php require_once('inc/header.php'); ?>
     <main>
-        <button class="hamburgerBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburgerMenu"
-            aria-controls="hamburgerMenu">
+        <button class="hamburgerBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburgerMenu" aria-controls="hamburgerMenu">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#d199ff">
                 <path d="M0 0h24v24H0V0z" fill="none" />
                 <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
@@ -176,15 +105,9 @@
                 distinctive yields the best results and keeps your company ahead of the competition.</p>
         </section>
     </main>
-    <footer></footer>
-    <div id="fb-root"></div>
-    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <?php require_once('inc/footer.php'); ?>
 
-    <script src="https://kit.fontawesome.com/57ed6e10c3.js" crossorigin="anonymous"></script>
-    <script src="js/global.js"></script>
 </body>
 
 </html>
