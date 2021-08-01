@@ -72,8 +72,9 @@
 :root {
   --highlight: hsl(120, 100%, 40%);
   /* hsl(273, 100%, 70%); */
-  --linkColor: hsl(273, 100%, 80%);
+  --linkColor: hsl(180, 100%, 80%);
   --textColor: hsl(273, 100%, 80%);
+  --backgroundHeader: hsl(180, 100%, 5%);
   --background: hsl(273, 100%, 5%);
   --backgroundAlt: hsl(273, 100%, 8%);
   --button: hsl(273, 100%, 90%);

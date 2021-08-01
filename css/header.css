@@ -6,7 +6,7 @@
 
 body,
 .offcanvas {
-  background-color: var(--background);
+  background-color: var(--backgroundHeader);
 }
 
 header .offcanvas.show {

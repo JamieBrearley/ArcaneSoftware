@@ -46,6 +46,16 @@ h1 span {
 
 p {
   text-align: center;
+  line-height: 1.5rem;
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--highlight);
 }
 
 input {
