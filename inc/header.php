@@ -1,7 +1,7 @@
 <header>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="hamburgerMenu" aria-labelledby="hamburgerMenuLabel">
         <div class="offcanvas-header">
-            <a class="offcanvas-title" href="<?php echo ROOT_DIR; ?>">
+            <a class="offcanvas-title" href="<?php echo ROOT_DIR . 'index.php'; ?>">
                 <img src="<?php echo ROOT_DIR; ?>assets/logo/logo_only.svg" alt="Arcane Software Logo">
                 <h5 class="text-center brand-name" id="hamburgerMenuLabel">Arcane <span>Software</span></h5>
             </a>
@@ -42,6 +42,7 @@
                     <h6>Resources</h6>
                 </li>
                 <li><a href="<?php echo ROOT_DIR; ?>resources/truth_about_site_builders.php">The truth about site builders</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>resources/website_cost.php">The Cost of Web Solutions</a></li>
             </ul>
         </div>
         <div class="offcanvas-footer small">

@@ -1,0 +1,32 @@
+.contactWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.socialWrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.socialWrapper * {
+  display: inline;
+}
+
+.socialWrapper a {
+  margin: 0.5rem 1rem;
+}
+
+.socialWrapper i {
+  margin: 10px;
+}
+
+.socialWrapper a h5 {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}

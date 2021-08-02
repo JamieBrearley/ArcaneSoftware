@@ -21,6 +21,11 @@ h2 {
   text-transform: uppercase;
 }
 
+h5,
+h6 {
+  margin-bottom: 10px;
+}
+
 h2 {
   font-size: 2.6rem;
 }
@@ -70,13 +75,14 @@ input {
 }
 
 .btn-animate {
-  display: block;
+  display: inline-block;
   position: relative;
   z-index: 0;
 
   margin: 2rem auto;
   padding: 20px 50px;
 
+  text-align: center;
   text-transform: uppercase;
   font-family: inherit;
   font-size: 1rem;
@@ -124,13 +130,20 @@ input {
 }
 
 strong {
+  font-family: Helvetica;
   font-weight: 600;
+  color: var(--strongColor);
 }
 
 section {
   z-index: 1;
   padding: 6rem 1rem;
   background: var(--background);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 video {
@@ -168,12 +181,17 @@ video {
 
 .iconBlock i {
   font-size: 3rem;
-  color: var(--textColor);
+  color: inherit;
+  text-align: center;
+}
+
+.iconBlock a {
+  display: inline-block;
   text-align: center;
 }
 
 .iconBlock h5 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin: 0.5rem;
 }
 

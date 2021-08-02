@@ -18,3 +18,16 @@ define('ROOT_DIR', $dir);
 <link rel="stylesheet" href="<?php echo ROOT_DIR; ?>css/global.css">
 <link rel="stylesheet" href="<?php echo ROOT_DIR; ?>css/header.css">
 <link rel="stylesheet" href="<?php echo ROOT_DIR; ?>css/main.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3G4YBL3W22"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-3G4YBL3W22');
+</script>

@@ -74,6 +74,7 @@
   /* hsl(273, 100%, 70%); */
   --linkColor: hsl(180, 100%, 80%);
   --textColor: hsl(273, 100%, 80%);
+  --strongColor: hsl(273, 50%, 80%);
   --backgroundHeader: hsl(180, 100%, 5%);
   --background: hsl(273, 100%, 5%);
   --backgroundAlt: hsl(273, 100%, 8%);

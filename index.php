@@ -18,7 +18,7 @@
                 We make Australian businesses attractive and take flight through SEO, web design, digital marketing,
                 and social media.
             </p>
-            <button class="btn-animate" type="button">Free consultation and quote</button>
+            <a class="btn-animate" href="contact_us.php">Free consultation and quote</a>
         </section>
         <video class="lazy" muted autoplay loop>
             <source data-src="assets/video/abstract_1280.mp4" type="video/mp4">
@@ -29,7 +29,7 @@
                 help a business
                 reach its full potential. There are no binding contracts, no fine print, and no aggressive salespeople.
             </p>
-            <button class="btn-animate" type="button">View Portfolio</button>
+            <!-- <a class="btn-animate" href="contact_us.php">View Portfolio</a> -->
         </section>
         <section>
             <h1>A results-driven development agency based in <span class="fancy">Brisbane.</span></h1>
@@ -101,7 +101,6 @@
     </main>
 
     <?php require_once('inc/footer.php'); ?>
-
 </body>
 
 </html>

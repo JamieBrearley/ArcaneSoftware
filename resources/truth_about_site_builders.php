@@ -5,7 +5,7 @@
     <?php require_once('../inc/head.php'); ?>
     <title>Arcane Software - The Truth about Site Builders</title>
 
-    <meta name="description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. We use a combination of data analysis, technical intellect, and web expertise to make intelligent, informed decisions that help your business expand and grow online, from Search Engine Optimisation (SEO) to Social Media management and eye-catching web design.">
+    <meta name="description" content="Clients who have attempted to construct their own company website frequently contact Arcane Software. It&apos;s easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it &quot;simple&quot;. However, there are several reasons why you should avoid using a DIY website builder like Squarespace or Wix.">
 </head>
 
 <body style="opacity: 0;">
@@ -14,7 +14,7 @@
         <?php require('../inc/hamburgerBtn.php'); ?>
         <section>
             <h1>The truth about <span class="fancy">website builders</span></h1>
-            <p>Clients who have attempted to construct their own company website frequently contact Arcane Software. It's easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it "simple." However, there are several reasons why you should avoid using a DIY website builder like Squarespace or Wix.</p>
+            <p>Clients who have attempted to construct their own company website frequently contact Arcane Software. It's easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it "simple". However, there are several reasons why you should avoid using a DIY website builder like SquareSpace or Wix.</p>
         </section>
         <section>
             <h2>Financial Impact</h2>
@@ -51,7 +51,7 @@
         </section>
         <section>
             <h2>Conclusion</h2>
-            <p>Contact <a href="../contact_us.php">Arcane Software</a> now if you're a business searching for a cost-effective professional web solution. We provide a variety of packages and marketing techniques to match the needs of any business, and we can tailor our services to fit your budget. If you're wondering how much a website actually costs, have a look at our article <i>'The Cost of Web Solutions'</i>, where we explain our project management approach and how we generate quotations.</p>
+            <p>Contact <a href="../contact_us.php">Arcane Software</a> now if you're a business searching for a cost-effective professional web solution. We provide a variety of packages and marketing techniques to match the needs of any business, and we can tailor our services to fit your budget. If you're wondering how much a website actually costs, have a look at our article <a href="website_cost.php"><i>'The Cost of Web Solutions'</i></a>, where we explain our project management approach and how we generate quotations.</p>
         </section>
     </main>
 
