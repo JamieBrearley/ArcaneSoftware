@@ -46,12 +46,14 @@
         </div>
         <div class="offcanvas-footer small">
             <ul class="col-xl-6 company-info">
-                <li><a href="tel:+1300 000 000">1300 000 000</a></li>
+                <!-- <li><a href="tel:+1300 000 000">1300 000 000</a></li> -->
                 <li><a href="mailto:hello@ArcaneSoftware.com.au">hello@ArcaneSoftware.com.au</a></li>
             </ul>
             <div class="header-socials">
                 <a href="https://www.facebook.com/ArcaneSoftwareAU" target="_blank" alt="Facebook">
                     <i class="fab fa-facebook"></i></a>
+                <a href="https://m.me/ArcaneSoftwareAU" target="_blank" alt="Messenger">
+                    <i class="fab fa-facebook-messenger"></i></a>
                 <a href="https://www.instagram.com/arcanesoftware/" target="_blank" alt="Instagram">
                     <i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/Arcane_Software" target="_blank" alt="Twitter">

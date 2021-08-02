@@ -13,11 +13,10 @@
     <main>
         <?php require('inc/hamburgerBtn.php'); ?>
         <section>
-            <h1>Exceptional web design that will <span>set you apart</span> from the competition</h1>
+            <h1>Exceptional web design that will <span class="fancy">set you apart</span> from the competition</h1>
             <p>
                 We make Australian businesses attractive and take flight through SEO, web design, digital marketing,
-                and
-                social media.
+                and social media.
             </p>
             <button class="btn-animate" type="button">Free consultation and quote</button>
         </section>
@@ -25,7 +24,7 @@
             <source data-src="assets/video/abstract_1280.mp4" type="video/mp4">
         </video>
         <section>
-            <h1>Get ahead of the competition with everything <span>digital!</span></h1>
+            <h1>Get ahead of the competition with everything <span class="fancy">digital!</span></h1>
             <p>Our designers, data-driven marketers, and digital wizards understand what it takes to get results and
                 help a business
                 reach its full potential. There are no binding contracts, no fine print, and no aggressive salespeople.
@@ -33,7 +32,7 @@
             <button class="btn-animate" type="button">View Portfolio</button>
         </section>
         <section>
-            <h1>A results-driven development agency based in <span>Brisbane.</span></h1>
+            <h1>A results-driven development agency based in <span class="fancy">Brisbane.</span></h1>
             <p>It's more vital than ever for web design companies and online marketers to help their clients stand out
                 from the crowd. Arcane Software is dedicated to providing quality performance that turn visitors into
                 paying clients. We make sure your business stands out online in a world when attention spans are
@@ -45,7 +44,7 @@
         </section>
         <section>
             <h6 class="overline">From conversion-focused design to organic and sponsored traffic.</h6>
-            <h1>Why clients <span>choose</span> Arcane Software</h1>
+            <h1>Why clients <span class="fancy">choose</span> Arcane Software</h1>
             <div class="iconBlockWrapper">
                 <div class="iconBlock">
                     <i class="fab fa-searchengin"></i>
@@ -78,7 +77,7 @@
             </div>
         </section>
         <section>
-            <h1>A <span>talented</span> group of digital experts</h1>
+            <h1>A <span class="fancy">talented</span> group of digital experts</h1>
             <p>While we believe a beautiful, snappy, appealing website to be the core of a business' online profile,
                 genuine online growth demands a distinct range of capabilities.</p>
 

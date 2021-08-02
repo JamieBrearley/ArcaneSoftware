@@ -38,7 +38,7 @@ h6 {
   font-size: 1rem;
 }
 
-h1 span {
+h1 .fancy {
   font-family: "PermanentMarker";
   color: var(--highlight);
   font-weight: 300;
@@ -47,6 +47,12 @@ h1 span {
 p {
   text-align: center;
   line-height: 1.5rem;
+}
+
+p .fancy {
+  font-family: "PermanentMarker";
+  color: var(--highlight);
+  font-weight: 300;
 }
 
 a {
@@ -194,7 +200,7 @@ section:last-of-type {
   }
 
   section {
-    padding: 6rem;
+    padding: 6rem 15%;
   }
 
   video {
