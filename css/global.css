@@ -70,21 +70,29 @@
 }
 
 :root {
-  --highlight: hsl(120, 100%, 40%);
-  /* hsl(273, 100%, 70%); */
-  --linkColor: hsl(180, 100%, 80%);
-  --textColor: hsl(273, 100%, 80%);
-  --strongColor: hsl(273, 50%, 80%);
-  --backgroundHeader: hsl(180, 100%, 5%);
-  --background: hsl(273, 100%, 5%);
+  /* --highlight: hsl(273, 100%, 70%);
+  --linkColor: rgba(209, 153, 255, 0.6);
+  --textColor: hsl(273, 18%, 96%);
+  --strongColor: hsl(273, 18%, 96%);
+  --backgroundHeader: hsl(273, 18%, 10%);
+  --background: hsl(273, 18%, 10%);
+  --backgroundAlt: hsl(273, 18%, 15%);
+  --button: hsl(130, 100%, 70%); */
+
+  --highlight: hsl(273, 100%, 50%);
+  --linkColor: hsl(273, 80%, 80%);
+  --textColor: hsl(273, 18%, 96%);
+  --strongColor: hsl(273, 18%, 96%);
+  --backgroundHeader: hsl(273, 100%, 8%);
+  --background: hsl(273, 100%, 3%);
   --backgroundAlt: hsl(273, 100%, 8%);
-  --button: hsl(273, 100%, 90%);
+  --button: hsl(273, 100%, 60%);
 }
 
 html,
 body {
-  background-color: hsl(273, 100%, 5%);
-  color: hsl(273, 100%, 80%);
+  background-color: var(--background);
+  color: var(--textColor);
   margin: 0;
   padding: 0;
 }

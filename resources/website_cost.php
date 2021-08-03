@@ -119,7 +119,7 @@
                 <div class="iconBlock"><i class="fas fa-pencil-ruler"></i>
                     <h5>Web Design</h5>
                     <hr>
-                    <p>Color palettes, font styles, layout, visual design, and navigation are all included. All of our designs are fully responsive (they operate on all screens sizes) and emphasise the use of design to increase engagement and conversion rates. Our web design services are offered at around <strong>$70 per hour</strong>.</p>
+                    <p>Color palettes, font styles, layout, visual design, and navigation are all included. All of our designs are fully responsive (they operate on all screens sizes) and emphasise the use of design to increase engagement and conversion rates. Our web design services are offered at around <strong>$95 per hour</strong>.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-photo-video"></i>
                     <h5>Photo Source Sets</h5>
@@ -161,7 +161,7 @@
                     <h5>Site Maintenance</h5>
                     <hr>
                     <p>No WordPress. No WordPress plugin update charge.</p>
-                    <p>Maintaining your website entails keeping it up to date and error-free. This might include changing the site's content, adding new forms, or adding extra pages. Ongoing maintenance is charged on a job-by-job basis, with rates ranging from <strong>$70 to $90 per hour</strong> depending on the complexity.</p>
+                    <p>Maintaining your website entails keeping it up to date and error-free. This might include changing the site's content, adding new forms, or adding extra pages. Ongoing maintenance is charged on a job-by-job basis, with rates ranging from <strong>$70 to $95 per hour</strong> depending on the complexity.</p>
                     <p>If any problems are discovered on your site, we will correct them for free, forever.</p>
                 </div>
                 <div class="iconBlock">
