@@ -41,7 +41,7 @@
                 <li>
                     <h6>Resources</h6>
                 </li>
-                <li><a href="<?php echo ROOT_DIR; ?>resources/truth_about_site_builders.php">The truth about site builders</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>resources/truth_about_website_builders.php">The truth about website builders</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>resources/website_cost.php">The Cost of Web Solutions</a></li>
             </ul>
         </div>

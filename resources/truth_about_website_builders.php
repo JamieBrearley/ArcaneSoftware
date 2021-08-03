@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once('../inc/head.php'); ?>
-    <title>Arcane Software - The Truth about Site Builders</title>
+    <title>Arcane Software - The Truth about Website Builders</title>
 
     <meta name="description" content="Clients who have attempted to construct their own company website frequently contact Arcane Software. It&apos;s easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it &quot;simple&quot;. However, there are several reasons why you should avoid using a DIY website builder like Squarespace or Wix.">
 </head>
