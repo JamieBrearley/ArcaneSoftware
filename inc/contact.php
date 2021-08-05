@@ -5,8 +5,6 @@ if (count($_POST) <= 0) return;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-var_dump($_POST);
-
 $name = htmlspecialchars(trim($_POST["name"]));
 $business = htmlspecialchars(trim($_POST["business"]));
 $email = htmlspecialchars(trim($_POST["email"]));
@@ -54,7 +52,7 @@ $htmlmsg .= "<p>Additional Info: $message</p>";
 
 // $msg = wordwrap($msg, 70);
 
-require_once 'vendor/autoload.php';
+require_once '/vendor/autoload.php';
 
 // This address must be verified with Amazon SES.
 $sender = 'jamie.brearley@arcanesoftware.com.au';
