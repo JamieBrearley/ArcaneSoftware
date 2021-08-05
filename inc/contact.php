@@ -56,7 +56,7 @@ require_once '../vendor/autoload.php';
 
 // This address must be verified with Amazon SES.
 $sender = 'jamie.brearley@arcanesoftware.com.au';
-$sender = 'Arcane Software Contact Form';
+$senderName = 'Arcane Software Contact Form';
 
 $recipient = 'hello@arcanesoftware.com.au';
 
@@ -99,12 +99,8 @@ try {
     return ('success');
 } catch (phpmailerException $e) {
     //Catch errors from PHP Mailer.
-    $error = "An error occurred. {$e->errorMessage()}";
-    trigger_error($error);
-    return ($error);
+    trigger_error("An error occurred. {$e->errorMessage()}");
 } catch (Exception $e) {
     //Catch errors from Amazon SES.
-    $error = "Email not sent. {$mail->ErrorInfo}";
-    trigger_error($error);
-    return ($error);
+    trigger_error("Email not sent. {$mail->ErrorInfo}");
 }

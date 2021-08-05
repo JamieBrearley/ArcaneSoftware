@@ -7,4 +7,4 @@
 
 <script src="https://kit.fontawesome.com/57ed6e10c3.js" crossorigin="anonymous"></script>
 
-<script src="<?php echo constant(ROOT_DIR); ?>js/global.js"></script>
+<script src="<?php echo ROOT_DIR; ?>js/global.js"></script>

@@ -1,8 +1,8 @@
 <header>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="hamburgerMenu" aria-labelledby="hamburgerMenuLabel">
         <div class="offcanvas-header">
-            <a class="offcanvas-title" href="<?php echo constant(ROOT_DIR) . 'index.php'; ?>">
-                <img src="<?php echo constant(ROOT_DIR); ?>assets/logo/logo_only.svg" alt="Arcane Software Logo">
+            <a class="offcanvas-title" href="<?php echo ROOT_DIR . 'index.php'; ?>">
+                <img src="<?php echo ROOT_DIR; ?>assets/logo/logo_only.svg" alt="Arcane Software Logo">
                 <h5 class="text-center brand-name" id="hamburgerMenuLabel">Arcane <span>Software</span></h5>
             </a>
             <button type="button" class="hamburgerClose" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -17,32 +17,32 @@
                 <li>
                     <h6>Creation</h6>
                 </li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/web_design.php">Web Design</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/web-dev.php">Web Development</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/ecommerce_design.php">eCommerece Web Design</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/website_photography.php">Website Photography</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/wordpress_websites.php">WordPress Websites</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/website_hosting.php">Website Hosting</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/graphic_design.php">Graphic Design</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>creation/website_management.php">Website Management</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/web_design.php">Web Design</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/web-dev.php">Web Development</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/ecommerce_design.php">eCommerece Web Design</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/website_photography.php">Website Photography</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/wordpress_websites.php">WordPress Websites</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/website_hosting.php">Website Hosting</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/graphic_design.php">Graphic Design</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/website_management.php">Website Management</a></li>
             </ul>
             <ul>
                 <li>
                     <h6>Marketing</h6>
                 </li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>marketing/seo.php">Search Engine Optimisation (SEO)</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>marketing/social_media.php">Social Media</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>marketing/content_marketing.php">Content Marketing</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>marketing/digital_marketing.php">Digital Marketing Agency</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>marketing/google_ads_adwords.php">Google Ads / Adwords</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>marketing/messenger_bots.php">Messenger Bots</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>marketing/seo.php">Search Engine Optimisation (SEO)</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>marketing/social_media.php">Social Media</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>marketing/content_marketing.php">Content Marketing</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>marketing/digital_marketing.php">Digital Marketing Agency</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>marketing/google_ads_adwords.php">Google Ads / Adwords</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>marketing/messenger_bots.php">Messenger Bots</a></li>
             </ul>
             <ul>
                 <li>
                     <h6>Resources</h6>
                 </li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>resources/truth_about_website_builders.php">The truth about website builders</a></li>
-                <li><a href="<?php echo constant(ROOT_DIR); ?>resources/website_cost.php">The Cost of Web Solutions</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>resources/truth_about_website_builders.php">The truth about website builders</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>resources/website_cost.php">The Cost of Web Solutions</a></li>
             </ul>
         </div>
         <div class="offcanvas-footer small">
