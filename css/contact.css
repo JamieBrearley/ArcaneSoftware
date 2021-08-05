@@ -1,32 +1,300 @@
-.contactWrapper {
+main .socialWrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+
+  margin: 3rem;
+}
+
+main .socialWrapper * {
+  display: inline;
+}
+
+main .socialWrapper a {
+  margin: 0.5rem 1rem;
+  width: 200px;
+}
+
+main .socialWrapper i {
+  margin: 10px;
+}
+
+main .socialWrapper a h5 {
+  margin: 0;
+}
+
+main ul {
+  /* padding-left: 0; */
+  margin-bottom: 3rem;
+}
+
+main li {
+  list-style: none;
+  width: 300px;
+}
+
+main li h6 {
+  text-align: left;
+  margin-left: 0;
+}
+
+main input,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+}
+
+main textarea#message {
+  height: 150px;
+  resize: vertical;
+  width: 90vw;
+}
+
+#hosting {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+main label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+main .checkboxGroup,
+main .radioGroup {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 0.125rem;
+}
+
+main #hostingURL {
+  max-width: 400px;
+  margin-bottom: 3rem;
+}
+
+main input[type="text"],
+main input[type="email"],
+main input[type="tel"] {
+  max-width: 250px;
+  width: 50vw;
+  min-width: 175px;
+}
+
+main input[type="checkbox"],
+main input[type="radio"] {
+  margin-top: 0.25rem;
+  margin-left: -1.5rem;
+  float: left;
+
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: 0.25rem;
+  vertical-align: top;
+
+  background-color: var(--backgroundAlt);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid var(--button);
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+main input[type="radio"] {
+  border-radius: 50%;
+}
+
+main input[type="checkbox"]:active,
+main input[type="radio"]:active {
+  filter: brightness(90%);
+}
+
+main input[type="checkbox"]:focus,
+main input[type="radio"]:focus {
+  border-color: var(--highlight);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--box-shadow);
+}
+
+main input[type="checkbox"]:checked,
+main input[type="radio"]:checked {
+  background-color: var(--highlight);
+  border-color: var(--button);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+main input[type="radio"]:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+main input[type="checkbox"] ~ label,
+main input[type="radio"] ~ label {
+  padding-top: 2px;
+}
+
+main .floating-label {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .floating-label > .input-control {
+  padding: 1rem 0.75rem;
+  min-height: calc(3.5rem + 2px);
+  line-height: 1.25;
+}
+
+main .input-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--textColor);
+  background-color: var(--background);
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  border: 1px solid var(--backgroundAlt);
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.floating-label > .input-control:focus,
+.floating-label > .input-control.notEmpty {
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
+}
+main .input-control:focus {
+  color: var(--textColor);
+  background-color: var(--backgroundAlt);
+  border-color: var(--highlight);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--box-shadow);
+}
+
+.floating-label > .input-control:focus ~ label,
+.floating-label > .input-control.notEmpty ~ label {
+  opacity: 0.65;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+main .floating-label > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 1rem 0.75rem;
+  pointer-events: none;
+  border: 1px solid transparent;
+  transform-origin: 0 0;
+  transition: opactity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+main .flex {
+  display: flex;
+  justify-content: space-between;
   align-content: center;
 }
 
-.socialWrapper {
+main .flex-col {
+  flex-direction: column;
+}
+
+main .flex-col * {
+  width: auto;
+}
+
+main .wrap {
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+
+main .contactWrapper {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   flex-direction: column;
 }
 
-.socialWrapper * {
-  display: inline;
+.dynamic {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
 }
 
-.socialWrapper a {
-  margin: 0.5rem 1rem;
+.dynamic > *,
+#hosting,
+form {
+  overflow: hidden;
+
+  transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
 }
 
-.socialWrapper i {
-  margin: 10px;
+form.disappearingForm .dynamic > * {
+  opacity: 0;
+  max-height: 0;
 }
 
-.socialWrapper a h5 {
-  margin: 0;
+.dynamic > *:not(.show),
+#hosting:not(.show),
+form.disappearingForm {
+  opacity: 0;
+  max-height: 0;
 }
 
-li {
-  list-style: none;
+main .show {
+  opacity: 1;
+  max-height: 1000px;
+}
+
+main .validate input + label::after,
+main ul.validate li h6::after {
+  content: "*";
+  color: var(--linkColor);
+}
+
+main .validateFailed {
+  border-color: red !important;
+}
+
+main .validateFailed label,
+main .validateFailed label::after,
+main .validateFailed h6,
+main .validateFailed h6::after {
+  color: hsl(0, 100%, 65%) !important;
+}
+
+main .postSuccess {
+  color: hsl(150, 100%, 65%);
+}
+
+main .postFailed {
+  color: hsl(0, 100%, 65%);
+}
+
+@media (min-width: 700px) {
+  main textarea#message {
+    width: 50vw;
+  }
 }

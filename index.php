@@ -99,8 +99,8 @@
                 distinctive yields the best results and keeps your company ahead of the competition.</p>
         </section>
     </main>
-
     <?php require_once('inc/footer.php'); ?>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

@@ -80,6 +80,7 @@
   --button: hsl(130, 100%, 70%); */
 
   --highlight: hsl(273, 100%, 50%);
+  --box-shadow: hsla(273, 100%, 50%, 0.25);
   --linkColor: hsl(273, 80%, 80%);
   --textColor: hsl(273, 18%, 96%);
   --strongColor: hsl(273, 18%, 96%);
@@ -87,6 +88,11 @@
   --background: hsl(273, 100%, 3%);
   --backgroundAlt: hsl(273, 100%, 8%);
   --button: hsl(273, 100%, 60%);
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 
 html,
