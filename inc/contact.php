@@ -13,6 +13,7 @@ $email = htmlspecialchars(trim($_POST["email"]));
 $phone = htmlspecialchars(trim($_POST["phone"]));
 
 $services = htmlspecialchars(trim($_POST["services"]));
+
 $webInfoType = htmlspecialchars(trim($_POST["webInfoType"]));
 $webBudget = htmlspecialchars(trim($_POST["webBudget"]));
 $seoBudget = htmlspecialchars(trim($_POST["seoBudget"]));
@@ -25,10 +26,31 @@ $hostingURL = htmlspecialchars(trim($_POST["hostingURL"]));
 $message = htmlspecialchars(trim($_POST["message"]));
 
 $msg = "$name from $business ($email) [$phone] submitted via the website contact form: \n\n";
-$msg .= "Services: $services";
+$msg .= "Services: $services\n\n";
+$msg .= "Web Type: $webInfoType\n\n";
+$msg .= "Web Budget: $webBudget\n\n";
+$msg .= "SEO Budget: $seoBudget\n\n";
+$msg .= "Digital Marketing: $digMrkt\n\n";
+$msg .= "Digital Marketing Budget: $digMrktBudget\n\n";
+$msg .= "Social Media Accounts: $socialMediaAccounts\n\n";
+$msg .= "Social Media Marketing Budget: $socialMrktBudget\n\n";
+$msg .= "Logo Design Budget: $logoBudget\n\n";
+$msg .= "Domain Name: $hostingURL\n\n";
+$msg .= "Additional Info: $message\n\n";
 
 $htmlmsg =
     "<p>$name from $business ($email) [$phone] submitted via the website contact form: </p>";
+$htmlmsg .= "<p>Services: $services</p>";
+$htmlmsg .= "<p>Web Type: $webInfoType</p>";
+$htmlmsg .= "<p>Web Budget: $webBudget</p>";
+$htmlmsg .= "<p>SEO Budget: $seoBudget</p>";
+$htmlmsg .= "<p>Digital Marketing: $digMrkt</p>";
+$htmlmsg .= "<p>Digital Marketing Budget: $digMrktBudget</p>";
+$htmlmsg .= "<p>Social Media Accounts: $socialMediaAccounts</p>";
+$htmlmsg .= "<p>Social Media Marketing Budget: $socialMrktBudget</p>";
+$htmlmsg .= "<p>Logo Design Budget: $logoBudget</p>";
+$htmlmsg .= "<p>Domain Name: $hostingURL</p>";
+$htmlmsg .= "<p>Additional Info: $message</p>";
 
 // $msg = wordwrap($msg, 70);
 
