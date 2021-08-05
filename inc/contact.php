@@ -92,7 +92,7 @@ try {
 
     // Specify the content of the message.
     $mail->isHTML(true);
-    $mail->Subject    = $subject;
+    $mail->Subject    = "Contact Form Inquiry";
     $mail->Body       = $htmlmsg;
     $mail->AltBody    = $msg;
     $mail->Send();

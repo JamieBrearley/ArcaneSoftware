@@ -114,7 +114,7 @@ $(document).ready(function () {
         toReturn += ", ";
       }
     });
-    return toReturn.substring(0, toReturn.Length - 2);
+    return toReturn.substring(0, toReturn.length - 2);
   }
 
   function formValidation() {
