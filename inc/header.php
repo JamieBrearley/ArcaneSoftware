@@ -48,23 +48,25 @@
         <div class="offcanvas-footer small">
             <ul class="col-xl-6 company-info">
                 <!-- <li><a href="tel:+1300 000 000">1300 000 000</a></li> -->
-                <li><a href="mailto:hello@ArcaneSoftware.com.au">hello@ArcaneSoftware.com.au</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>contact_us.php">Drop us a message</a></li>
             </ul>
             <div class="header-socials">
                 <a href="https://www.facebook.com/ArcaneSoftwareAU" target="_blank" alt="Facebook">
-                    <i class="fab fa-facebook"></i></a>
+                    <i class="fab fa-facebook" aria-hidden="true"></i></a>
                 <a href="https://m.me/ArcaneSoftwareAU" target="_blank" alt="Messenger">
-                    <i class="fab fa-facebook-messenger"></i></a>
+                    <i class="fab fa-facebook-messenger" aria-hidden="true"></i></a>
                 <a href="https://www.instagram.com/arcanesoftware/" target="_blank" alt="Instagram">
-                    <i class="fab fa-instagram"></i></a>
+                    <i class="fab fa-instagram" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/Arcane_Software" target="_blank" alt="Twitter">
-                    <i class="fab fa-twitter"></i></a>
+                    <i class="fab fa-twitter" aria-hidden="true"></i></a>
                 <a href="https://wa.me/message/MW5I2D3HW5M7L1" target="_blank" alt="Whats App">
-                    <i class="fab fa-whatsapp"></i></a>
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/company/arcane-software" target="_blank" alt="Linkedin">
-                    <i class="fab fa-linkedin-in"></i></a>
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                 <a href="https://www.tiktok.com/@arcanesoftware" target="_blank" alt="TikTok">
-                    <i class="fab fa-tiktok"></i></a>
+                    <i class="fab fa-tiktok" aria-hidden="true"></i></a>
+                <a href="mailto:hello@ArcaneSoftware.com.au" target="_blank" alt="TikTok">
+                    <i class="fas fa-envelope" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

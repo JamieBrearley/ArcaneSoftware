@@ -174,7 +174,7 @@ header .offcanvas-footer .header-socials {
 
 header .offcanvas .company-info li {
   text-align: center;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 header .offcanvas .company-info li:hover {

@@ -20,9 +20,10 @@
             </p>
             <a class="btn-animate" href="contact_us.php">Free consultation and quote</a>
         </section>
-        <video class="lazy" muted autoplay loop>
+        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg" alt="Arcane Software Logo" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_256.jpg 256w">
+        <!-- <video class="lazy" muted autoplay loop>
             <source data-src="assets/video/abstract_1280.mp4" type="video/mp4">
-        </video>
+        </video> -->
         <section>
             <h1>Get ahead of the competition with everything <span class="fancy">digital!</span></h1>
             <p>Our designers, data-driven marketers, and digital wizards understand what it takes to get results and

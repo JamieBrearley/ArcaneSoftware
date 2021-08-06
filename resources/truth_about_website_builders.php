@@ -16,6 +16,7 @@
             <h1>The truth about <span class="fancy">website builders</span></h1>
             <p>Clients who have attempted to construct their own company website frequently contact Arcane Software. It's easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it "simple". However, there are several reasons why you should avoid using a DIY website builder like SquareSpace or Wix.</p>
         </section>
+        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webbuilders_512.jpg" alt="the truth about website builders" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webbuilders_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webbuilders_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webbuilders_256.jpg 256w">
         <section>
             <h2>Financial Impact</h2>
             <p>Let's start with the most important one. But if you build it yourself, you will save money.</p>

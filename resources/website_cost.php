@@ -50,6 +50,7 @@
             <p>The larger the needs, as with other service-based businesses, the longer it takes to perform the task and, as a result, the higher the price. Similarly, as the number of pages necessary grows, so does the amount of web design and development required.</p>
             <p>This page attempts to be as transparent as possible by breaking out how we do what we do.</p>
         </section>
+        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webCost_512.jpg" alt="The cost of web solutions" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webCost_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webCost_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webCost_256.jpg 256w">
         <section>
             <h2>Is it possible for a website to be both cheap and effective?</h2>
             <p>
