@@ -42,8 +42,7 @@
                     <p><strong>~$1,000 - ~$5,000</strong></p>
                     <p>Website only for customers to obtain information. Does not include any forms, intended to display information with styling and animations, typically used for Patreon services, weddings and other events.</p>
                 </div>
-                <div id="marketing" class="iconBlock">
-                    <i class="fas fa-comment-dollar"></i>
+                <div id="marketing" class="iconBlock"><i class="fas fa-bullhorn"></i>
                     <h5>Marketing</h5>
                     <hr>
                     <p><strong>~$3,000 - ~$7,500</strong></p>
@@ -77,7 +76,7 @@
             <p>
                 It's also worth discussing the possibility of doing it yourself. If you're starting a new business and need to save money, website builders like Wix and Squarespace are viable choices. We urge that you read our article <a href="truth_about_site_builders.php"><i>'The Truth About Site Builders'</i></a> before going down this road.</p>
             <p>
-                When you engage <a href="http://www.ArcaneSoftware.com.au">Arcane Software</a>, you're entrusting us with the task of creating a website that turns visitors into customers. This is also true if you engage us to handle your <a href="../marketing/digital_marketing.php">advertising and marketing</a>. We charge for our time and the resources we use to develop a website that looks great, functions well, and generates a profit for you. Our estimates are dependent on how much time we intend to devote to your web project. From calls to action, <a href="../creation/graphic_design.php">graphics</a>, and functionality to continuing marketing, third-party integrations, and design, we examine every area of your company demands.</p>
+                When you engage <a href="http://www.ArcaneSoftware.com.au">Arcane Software</a>, you're entrusting us with the task of creating a website that turns visitors into customers. This is also true if you engage us to handle your <a href="../marketing/digital_marketing.php">advertising and marketing</a>. We charge for our time and the resources we use to develop a website that looks great, functions well, and generates a profit for you. Our estimates are dependent on how much time we intend to devote to your web project. From calls to action, <a href="../creation/graphic_design.php">graphics</a>, and functionality to continuous marketing, third-party integrations, and design, we examine every area of your company demands.</p>
         </section>
         <section>
             <h2>The Essentials</h2>
@@ -87,7 +86,7 @@
                     <h5>Domain Name</h5>
                     <hr>
                     <p>
-                        Popular companies such as <a href="https://au.godaddy.com/">GoDaddy</a> and <a href="https://www.crazydomains.com.au/">Crazy Domains</a> charge between <strong>$15 - $50 each year</strong>. Although, a valid ABN is required in order to acquire a .com.au domain name.</p>
+                        Popular companies such as <a href="https://au.godaddy.com/" title='go daddy'>GoDaddy</a> and <a href="https://www.crazydomains.com.au/" title="crazy domains">Crazy Domains</a> charge between <strong>$15 - $50 each year</strong>. Although, a valid ABN is required in order to acquire a .com.au domain name.</p>
                     <p>
                         With every connected transaction, Arcane Software provides free DNS and domain maintenance. Assisting our customers with this low maintenance yet complex task.</p>
                 </div>
@@ -127,8 +126,7 @@
         <section>
             <h2>Features</h2>
             <p>Once the content has been determined, the following stage is to look at design, structure and features.</p>
-            <p>HTML, CSS, JavaScript, and PHP are all used in our web development solution. Other companies typically don't utilise these technologies directly since they take longer than software like WordPress, as well as requiring more skill. Increasing the client's costs while simultaneously placing restrictions and limitations on what they may do. Arcane Software combats this by utilising pre-configured code snippets that allow us to accomplish these processes in minutes without the need for extra plugins or restrictions.</p>
-            <p>But still enabling us to take full advantage of unlimited customisation options.</p>
+            <p>HTML, CSS, JavaScript, and PHP are all used in our web development solution. Other businesses are less likely to utilise these technologies since they require more talented staff, restricting their capabilities. Arcane Software can create comprehensive customisations without relying on third-party software, allowing us to create unique, high-quality web solutions that convert your visitors into customers.</p>
             <div class="iconBlockWrapper">
                 <div class="iconBlock"><i class="fas fa-pencil-ruler"></i>
                     <h5>Web Design</h5>
@@ -150,7 +148,7 @@
                     <hr>
                     <p>Long-term success requires a continuous SEO strategy. If your company is interested in getting started with SEO, <strong>the cost starts at $500</strong>. Page meta tags, social media meta tags, picture size and compression and code weight minimisation are all included.</p>
                 </div>
-                <div class="iconBlock"><i class="fas fa-search"></i>
+                <div class="iconBlock"><i class="fas fa-chart-line"></i>
                     <h5>Analytics</h5>
                     <hr>
                     <p>The owner of a website may use Analytics to view a range of statistics on visitors, including demographics, the medium through which they arrived at the site, user retention, popular pages, conversion rates, platform comparison, and much more. This information is included in every web design bundle and is crucial to the success of any marketing effort.</p>
@@ -165,12 +163,12 @@
                     <hr>
                     <p>Arcane Software can create everything from simple contact forms to comprehensive surveys. All of our forms contain reCAPTCHA and totally customised spam filters, which are included in the price of our web design package.</p>
                 </div>
-                <div class="iconBlock"><i class="fas fa-poll-h"></i>
+                <div class="iconBlock"><i class="fas fa-file-image"></i>
                     <h5>Custom Website Caching</h5>
                     <hr>
                     <p>Thanks to the technology we've chosen to utilise, when you host your website on our servers, we can provide various customisation benefits such as creating custom cache rules, saving money on technical consultants, and enhancing customer satisfaction. This service is available to our hosted clients <strong>from $100</strong>, depending on the size and complexity of your site as well as the cache settings you require.</p>
                 </div>
-                <div class="iconBlock"><i class="fas fa-poll-h"></i>
+                <div class="iconBlock"><i class="fas fa-network-wired"></i>
                     <h5>Subdomains</h5>
                     <hr>
                     <p>In addition to numerous other services we are able to provide via our hosted services, we can divide your website into two with subdomains. If you are not sure what a subdomain is, images is a subdomain of google: <a href="https://images.google.com/">https://images.google.com/</a>. This service <strong>starts at $100</strong> for our hosted clients, depending on the size and complexity of your site as well as the routeing configurations you need.</p>
@@ -180,28 +178,24 @@
         <section>
             <h2>Ongoing Services</h2>
             <div class="iconBlockWrapper">
-                <div class="iconBlock">
-                    <i class="fas fa-poll-h"></i>
+                <div class="iconBlock"><i class="fas fa-tools"></i>
                     <h5>Site Maintenance</h5>
                     <hr>
                     <p>No WordPress. No WordPress plugin update charge.</p>
                     <p>Maintaining your website entails keeping it up to date and error-free. This might include changing the site's content, adding new forms, or adding extra pages. Ongoing maintenance is charged on a job-by-job basis, with rates ranging from <strong>$70 to $95 per hour</strong> depending on the complexity.</p>
                     <p>If any problems are discovered on your site, we will correct them for free, forever.</p>
                 </div>
-                <div class="iconBlock">
-                    <i class="fab fa-searchengin"></i>
+                <div class="iconBlock"><i class="fab fa-searchengin"></i>
                     <h5>Premium SEO Maintenance</h5>
                     <hr>
                     <p>Search Engine Optimization (SEO) is the continuing effort to improve your site's organic search engine ranking on Google and other search engines. A very high precentage of internet traffic flows to businesses that rank organically on page 1, thus the higher your site ranks, the more likely it is to be noticed by potential clients. We strictly adhere to <a href="https://developers.google.com/search/docs/beginner/seo-starter-guide">Google's ranking criteria</a> and employ a few of our own SEO techniques as well. Our premium SEO services begin at <strong>$750 per month</strong>.</p>
                 </div>
-                <div class="iconBlock">
-                    <i class="far fa-lightbulb"></i>
+                <div class="iconBlock"><i class="far fa-lightbulb"></i>
                     <h5>Digital Marketing</h5>
                     <hr>
                     <p>Arcane Software executes efficient marketing strategies for our customers, from Google Ads to sponsored Facebook and Instagram posts. Prices are primarily determined by the size of your firm and what your rivals are willing to pay. Any marketing effort should have some defined KPIs so that the return on investment can be tracked. Expect to burn through <strong>$500 a month and higher</strong> rather quickly in a reasonably competitive industry.</p>
                 </div>
-                <div class="iconBlock">
-                    <i class="fas fa-bullhorn"></i>
+                <div class="iconBlock"><i class="fas fa-bullhorn"></i>
                     <h5>Social Media Marketing</h5>
                     <hr>
                     <p>Arcane Software will create and implement a custom social media plan that is suited to your company's needs. We'll figure out which platforms and types of content best connect with your target demographic - it's critical that you reach out to them on their prefered media. Social media marketing quotes vary depending on the method implemented, but a good beginning point would be <strong>$450 per month</strong>.</p>

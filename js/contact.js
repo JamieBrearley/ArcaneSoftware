@@ -44,7 +44,15 @@ $(document).ready(function () {
   function onSubmit() {
     formValidation();
 
-    if ($(".validateFailed").length > 0) return;
+    if ($(".validateFailed").length > 0) {
+      $("html, body").animate(
+        {
+          scrollTop: $(".validateFailed").first().offset().top,
+        },
+        1000
+      );
+      return;
+    }
 
     $.ajax({
       url: "inc/contact.php",
