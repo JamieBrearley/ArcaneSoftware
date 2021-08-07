@@ -12,6 +12,7 @@
 
     <meta property="og:title" content="The Truth about Website Builders" />
     <meta property="og:description" content="Clients who have attempted to construct their own company website frequently contact Arcane Software. It&apos;s easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it &quot;simple&quot;. However, there are several reasons why you should avoid using a DIY website builder like Squarespace or Wix." />
+    <meta property="og:image" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webbuilders_512.jpg" />
     <meta property="og:image:secure_url" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webbuilders_512.jpg" />
     <meta property="article:published_time" content="2021-08-01T11:30:00.000+10:00">
     <meta property="article:modified_time" content="2021-08-07T11:35:00.000+10:00">

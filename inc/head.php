@@ -45,6 +45,7 @@ define('ROOT_DIR', $dir);
 <meta property='og:image:type' content="image/jpeg" />
 <meta property='og:image:width' content="512">
 <meta property='og:image:height' content="384">
+<meta property='fb:app_id' content="208671754532809">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3G4YBL3W22"></script>

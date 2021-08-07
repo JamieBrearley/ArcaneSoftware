@@ -11,6 +11,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="The Cost of Web Solutions" />
     <meta property="og:description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. While we believe a beautiful, snappy, appealing website to be the core of a business' online profile, genuine online growth demands a distinct range of capabilities." />
+    <meta property="og:image" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webCost_512.jpg" />
     <meta property="og:image:secure_url" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webCost_512.jpg" />
     <meta property="article:published_time" content="2021-08-01T11:30:00.000+10:00">
     <meta property="article:modified_time" content="2021-08-07T11:35:00.000+10:00">

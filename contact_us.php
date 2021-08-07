@@ -12,6 +12,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Contact Us" />
     <meta property="og:description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. While we believe a beautiful, snappy, appealing website to be the core of a business' online profile, genuine online growth demands a distinct range of capabilities. Drop us a message today for a free consultation and quote." />
+    <meta property="og:image" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg" />
     <meta property="og:image:secure_url" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg" />
 </head>
 
