@@ -6,9 +6,10 @@ $(document).ready(function () {
     $(".offcanvas").toggleClass("show");
   });
 
-  facebookChatbox();
   //fade in
   $("body").css("opacity", 1);
+
+  facebookChatbox();
 });
 
 function facebookChatbox() {

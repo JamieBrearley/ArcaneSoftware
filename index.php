@@ -5,7 +5,13 @@
     <?php require_once('inc/head.php'); ?>
     <title>Arcane Software</title>
 
-    <meta name="description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. We use a combination of data analysis, technical intellect, and web expertise to make intelligent, informed decisions that help your business expand and grow online, from Search Engine Optimisation (SEO) to Social Media management and eye-catching web design.">
+    <meta name="description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. We use a combination of data analysis, technical intellect, and web expertise to make intelligent, informed decisions that help your business expand and grow online, from Search Engine Optimisation (SEO) to Social Media management and eye-catching web design." />
+
+    <!-- Open Graph Markup -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home" />
+    <meta property="og:description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. We use a combination of data analysis, technical intellect, and web expertise to make intelligent, informed decisions that help your business expand and grow online, from Search Engine Optimisation (SEO) to Social Media management and eye-catching web design." />
+    <meta property="og:image:secure_url" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg" />
 </head>
 
 <body style="opacity: 0;">
@@ -20,7 +26,7 @@
             </p>
             <a class="btn-animate" href="contact_us.php">Free consultation and quote</a>
         </section>
-        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg" alt="Arcane Software Logo" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_256.jpg 256w">
+        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_1024.jpg" alt="Arcane Software Logo" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_256.jpg 256w">
         <!-- <video class="lazy" muted autoplay loop>
             <source data-src="assets/video/abstract_1280.mp4" type="video/mp4">
         </video> -->

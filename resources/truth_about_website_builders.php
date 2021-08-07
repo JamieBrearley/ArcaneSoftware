@@ -6,6 +6,23 @@
     <title>Arcane Software - The Truth about Website Builders</title>
 
     <meta name="description" content="Clients who have attempted to construct their own company website frequently contact Arcane Software. It&apos;s easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it &quot;simple&quot;. However, there are several reasons why you should avoid using a DIY website builder like Squarespace or Wix.">
+
+    <!-- Open Graph Markup -->
+    <meta property="og:type" content="article" />
+
+    <meta property="og:title" content="The Truth about Website Builders" />
+    <meta property="og:description" content="Clients who have attempted to construct their own company website frequently contact Arcane Software. It&apos;s easy to see why individuals try constructing a website for themselves when there are so many choices available that claim to make it &quot;simple&quot;. However, there are several reasons why you should avoid using a DIY website builder like Squarespace or Wix." />
+    <meta property="og:image:secure_url" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webbuilders_512.jpg" />
+    <meta property="article:published_time" content="2021-08-01T11:30:00.000+10:00">
+    <meta property="article:modified_time" content="2021-08-07T11:35:00.000+10:00">
+    <meta property="article:expiration_time" content="2121-08-07T01:31:04.000Z">
+    <meta property="article:author" content="Arcane Software">
+    <meta property="article:section" content="Web Development">
+    <meta property="article:tag" content="web development">
+    <meta property="article:tag" content="web design">
+    <meta property="article:tag" content="SEO">
+    <meta property="article:tag" content="digital marketing">
+    <meta property="article:tag" content="social media marketing">
 </head>
 
 <body style="opacity: 0;">

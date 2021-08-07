@@ -30,6 +30,22 @@ define('ROOT_DIR', $dir);
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
+<!-- Marketing tags -->
+<link rel="canonical" href="https://arcanesoftware.com.au">
+<meta name="robots" content="index, follow">
+
+<meta name="twitter:card" content="summary">
+<meta name='twitter:site' content="@Arcane_Software">
+<meta name='twitter:creator' content="@Arcane_Software">
+<meta name='twitter:url' content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
+
+<meta property='og:url' content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
+<meta property="og:locale" content="en_GB" />
+<meta property="og:site_name" content="Arcane Software" />
+<meta property='og:image:type' content="image/jpeg" />
+<meta property='og:image:width' content="512">
+<meta property='og:image:height' content="384">
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3G4YBL3W22"></script>
 <script>

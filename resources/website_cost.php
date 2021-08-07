@@ -5,7 +5,23 @@
     <?php require_once('../inc/head.php'); ?>
     <title>Arcane Software - The Cost of Web Solutions</title>
 
-    <meta name="description" content="How much does a website cost is one of the most often asked questions. Take a seat because we're going to try to answer it. Because every company is distinct and has various aims, determining how much a website costs is mainly determined by what the company wants, needs, and expects from their site.">
+    <meta name="description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. While we believe a beautiful, snappy, appealing website to be the core of a business' online profile, genuine online growth demands a distinct range of capabilities.">
+
+    <!-- Open Graph Markup -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="The Cost of Web Solutions" />
+    <meta property="og:description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. While we believe a beautiful, snappy, appealing website to be the core of a business' online profile, genuine online growth demands a distinct range of capabilities." />
+    <meta property="og:image:secure_url" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webCost_512.jpg" />
+    <meta property="article:published_time" content="2021-08-01T11:30:00.000+10:00">
+    <meta property="article:modified_time" content="2021-08-07T11:35:00.000+10:00">
+    <meta property="article:expiration_time" content="2121-08-07T01:31:04.000Z">
+    <meta property="article:author" content="Arcane Software">
+    <meta property="article:section" content="Web Development">
+    <meta property="article:tag" content="web development">
+    <meta property="article:tag" content="web design">
+    <meta property="article:tag" content="SEO">
+    <meta property="article:tag" content="digital marketing">
+    <meta property="article:tag" content="social media marketing">
 </head>
 
 <body style="opacity: 0;">
@@ -131,12 +147,12 @@
                 <div class="iconBlock"><i class="fas fa-search"></i>
                     <h5>Search Engine Optimisation (SEO)</h5>
                     <hr>
-                    <p>Long-term success requires a continuous SEO strategy. If your company is interested in getting started with SEO, <strong>the cost starts at $500</strong>. Page meta tags, picture size and compression and code weight minimisation are all included.</p>
+                    <p>Long-term success requires a continuous SEO strategy. If your company is interested in getting started with SEO, <strong>the cost starts at $500</strong>. Page meta tags, social media meta tags, picture size and compression and code weight minimisation are all included.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-search"></i>
                     <h5>Analytics</h5>
                     <hr>
-                    <p>The owner of a website may use Google Analytics to view a range of statistics on visitors, including demographics, the medium through which they arrived at the site, user retention, popular pages, conversion rates, platform comparison, and much more. This information is included in every web design bundle and is crucial to the success of any marketing effort.</p>
+                    <p>The owner of a website may use Analytics to view a range of statistics on visitors, including demographics, the medium through which they arrived at the site, user retention, popular pages, conversion rates, platform comparison, and much more. This information is included in every web design bundle and is crucial to the success of any marketing effort.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-cash-register"></i>
                     <h5>eCommerce</h5>
@@ -147,6 +163,16 @@
                     <h5>Forms and Surveys</h5>
                     <hr>
                     <p>Arcane Software can create everything from simple contact forms to comprehensive surveys. All of our forms contain reCAPTCHA and totally customised spam filters, which are included in the price of our web design package.</p>
+                </div>
+                <div class="iconBlock"><i class="fas fa-poll-h"></i>
+                    <h5>Custom Website Caching</h5>
+                    <hr>
+                    <p>Thanks to the technology we've chosen to utilise, when you host your website on our servers, we can provide various customisation benefits such as creating custom cache rules, saving money on technical consultants, and enhancing customer satisfaction. This service is available to our hosted clients <strong>from $100</strong>, depending on the size and complexity of your site as well as the cache settings you require.</p>
+                </div>
+                <div class="iconBlock"><i class="fas fa-poll-h"></i>
+                    <h5>Subdomains</h5>
+                    <hr>
+                    <p>In addition to numerous other services we are able to provide via our hosted services, we can divide your website into two with subdomains. If you are not sure what a subdomain is, images is a subdomain of google: <a href="https://images.google.com/">https://images.google.com/</a>. This service <strong>starts at $100</strong> for our hosted clients, depending on the size and complexity of your site as well as the routeing configurations you need.</p>
                 </div>
             </div>
         </section>
