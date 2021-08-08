@@ -21,7 +21,6 @@
                 <li><a href="<?php echo ROOT_DIR; ?>creation/web-dev.php">Web Development</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/ecommerce_design.php">eCommerece Web Design</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/website_photography.php">Website Photography</a></li>
-                <li><a href="<?php echo ROOT_DIR; ?>creation/wordpress_websites.php">WordPress Websites</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/website_hosting.php">Website Hosting</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/graphic_design.php">Graphic Design</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/website_management.php">Website Management</a></li>

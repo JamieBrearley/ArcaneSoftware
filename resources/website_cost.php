@@ -74,7 +74,7 @@
             <p>
                 A low-cost website is that way for a reason. It's a measure of how much time, effort, and money went into a project. The less expensive the site and the fewer hours invested, the less successful it will be. Any low-cost product or service goes through the same procedure. Research suggests that the less expensive a website is, the less effective it is.</p>
             <p>
-                It's also worth discussing the possibility of doing it yourself. If you're starting a new business and need to save money, website builders like Wix and Squarespace are viable choices. We urge that you read our article <a href="truth_about_site_builders.php"><i>'The Truth About Site Builders'</i></a> before going down this road.</p>
+                It's also worth discussing the possibility of doing it yourself. If you're starting a new business and need to save money, website builders like Wix and Squarespace are viable choices. We urge that you read our article <a href="truth_about_website_builders.php"><i>'The Truth About Site Builders'</i></a> before going down this road.</p>
             <p>
                 When you engage <a href="http://www.ArcaneSoftware.com.au">Arcane Software</a>, you're entrusting us with the task of creating a website that turns visitors into customers. This is also true if you engage us to handle your <a href="../marketing/digital_marketing.php">advertising and marketing</a>. We charge for our time and the resources we use to develop a website that looks great, functions well, and generates a profit for you. Our estimates are dependent on how much time we intend to devote to your web project. From calls to action, <a href="../creation/graphic_design.php">graphics</a>, and functionality to continuous marketing, third-party integrations, and design, we examine every area of your company demands.</p>
         </section>
@@ -198,7 +198,7 @@
                 <div class="iconBlock"><i class="fas fa-bullhorn"></i>
                     <h5>Social Media Marketing</h5>
                     <hr>
-                    <p>Arcane Software will create and implement a custom social media plan that is suited to your company's needs. We'll figure out which platforms and types of content best connect with your target demographic - it's critical that you reach out to them on their prefered media. Social media marketing quotes vary depending on the method implemented, but a good beginning point would be <strong>$450 per month</strong>.</p>
+                    <p>Arcane Software will create and implement a custom social media plan that is suited to your company's needs. We'll figure out which platforms and types of content best connect with your target demographic - it's critical that you reach out to them on their preferred media. Social media marketing quotes vary depending on the method implemented, but a good beginning point would be <strong>$450 per month</strong>.</p>
                 </div>
             </div>
         </section>
