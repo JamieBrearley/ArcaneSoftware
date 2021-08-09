@@ -5,12 +5,12 @@
     <?php require_once('../inc/head.php'); ?>
     <title>Arcane Software - Web Development</title>
 
-    <meta name="description" content="" />
+    <meta name="description" content="No one else has the freedom we have. We use raw HTML, CSS, JavaScript and PHP to make you stand out among your competitors, and not just in a flashy way. No matter what industry or scenario you're looking for, you'll stand out amongst competitors by using our custom solutions." />
 
     <!-- Open Graph Markup -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Web Development" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="No one else has the freedom we have. We use raw HTML, CSS, JavaScript and PHP to make you stand out among your competitors, and not just in a flashy way. No matter what industry or scenario you're looking for, you'll stand out amongst competitors by using our custom solutions." />
     <meta property="og:image" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_512.jpg" />
     <meta property="og:image:secure_url" content="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_512.jpg" />
 </head>
