@@ -70,24 +70,15 @@
 }
 
 :root {
-  /* --highlight: hsl(273, 100%, 70%);
-  --linkColor: rgba(209, 153, 255, 0.6);
-  --textColor: hsl(273, 18%, 96%);
-  --strongColor: hsl(273, 18%, 96%);
-  --backgroundHeader: hsl(273, 18%, 10%);
-  --background: hsl(273, 18%, 10%);
-  --backgroundAlt: hsl(273, 18%, 15%);
-  --button: hsl(130, 100%, 70%); */
-
-  --highlight: #8c00ff;
-  --box-shadow: #8c00ff40;
-  --linkColor: #d0a3f5;
-  --textColor: #f5f3f7;
-  --strongColor: #f5f3f7;
-  --backgroundHeader: #160029;
-  --background: #08000f;
-  --backgroundAlt: #160029;
-  --button: #a333ff;
+  --textColor: hsl(180, 20%, 96%);
+  --strongColor: hsl(180, 20%, 96%);
+  --linkColor: hsl(273, 80%, 80%);
+  --button: hsl(180, 100%, 60%);
+  --highlight: hsl(180, 100%, 50%);
+  --box-shadow: hsla(180, 100%, 50%, 0.251);
+  --backgroundAlt: hsl(273, 100%, 8%);
+  --background: hsl(273, 33%, 1%);
+  --scrollbar: hsl(273, 100%, 50%);
 }
 *,
 ::after,
@@ -100,11 +91,11 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: black;
+  background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--button);
+  background: var(--scrollbar);
   border-radius: 5px;
 }
 

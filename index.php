@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once('inc/head.php'); ?>
-    <title>Arcane Software | Web Design | Digital Marketing Agency</title>
+    <title>Arcane Software | Unique Web Design | Digital Marketing Agency</title>
 
     <meta name="description" content="Arcane Software is a full-service digital marketing agency devoted to developing skills that help you outperform your competition. We use a combination of data analysis, technical intellect, and web expertise to make intelligent, informed decisions that help your business expand and grow online, from Search Engine Optimisation (SEO) to Social Media management and eye-catching web design." />
 

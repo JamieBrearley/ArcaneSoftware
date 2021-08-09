@@ -126,8 +126,10 @@ $(document).ready(function () {
   }
 
   function formValidation() {
+    $("input:not(.show)").removeClass("validateFailed");
+    $("#hosting:not(.show)").first().removeClass("validateFailed");
     // check client details is satisfactory
-    $(".validate input[type=text]").each(function () {
+    $(".validate input[type=text]:not(#hostingURL)").each(function () {
       if ($(this).val() == "") $(this).parent().addClass("validateFailed");
       else $(this).parent().removeClass("validateFailed");
     });
@@ -154,10 +156,10 @@ $(document).ready(function () {
       $(this).removeClass("validateFailed");
       $(this).children().removeClass("validateFailed");
     });
-    $("#hosting:not(.show)").children().removeClass("validateFailed");
+
     $("#hosting.show").each(function () {
       let element = $(this).find("input[type=text]");
-      if (validateURL($(element).val())) $(this).removeClass("validateFailed");
+      if (validateURL($(element).val())) $(this).children().removeClass("validateFailed");
       else $(this).addClass("validateFailed");
     });
 
@@ -306,8 +308,6 @@ $(document).ready(function () {
 
   function validateURL(url) {
     const re = /(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)/;
-    console.log(url);
-    console.log(re.test(String(url).toLowerCase()));
     return re.test(String(url).toLowerCase());
   }
 

@@ -9,7 +9,7 @@ body {
 }
 
 .offcanvas {
-  background-color: var(--backgroundHeader);
+  background-color: var(--backgroundAlt);
 }
 
 header .offcanvas.show {

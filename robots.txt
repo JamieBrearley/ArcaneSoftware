@@ -5,6 +5,7 @@ Disallow: /assets/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /js/
+Disallow: /inc/
 
 User-agent: Twitterbot
 Allow: *
@@ -13,3 +14,4 @@ Disallow: /assets/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /js/
+Disallow: /inc/

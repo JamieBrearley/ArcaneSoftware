@@ -99,8 +99,6 @@ input {
 }
 
 .btn-animate:hover {
-  /* background-color: var(--button);
-  border: 1px solid var(--button); */
   color: var(--background);
   background-color: var(--button);
 }
