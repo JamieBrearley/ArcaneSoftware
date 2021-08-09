@@ -86,7 +86,7 @@
                     <h5>Domain Name</h5>
                     <hr>
                     <p>
-                        Popular companies such as <a href="https://au.godaddy.com/" title='go daddy'>GoDaddy</a> and <a href="https://www.crazydomains.com.au/" title="crazy domains">Crazy Domains</a> charge between <strong>$15 - $50 each year</strong>. Although, a valid ABN is required in order to acquire a .com.au domain name.</p>
+                        Popular companies such as <a href="https://au.godaddy.com/" title='go daddy' target="_blank">GoDaddy</a> and <a href="https://www.crazydomains.com.au/" title="crazy domains" target="_blank">Crazy Domains</a> charge between <strong>$15 - $50 each year</strong>. Although, a valid ABN is required in order to acquire a .com.au domain name.</p>
                     <p>
                         With every connected transaction, Arcane Software provides free DNS and domain maintenance. Assisting our customers with this low maintenance yet complex task.</p>
                 </div>
@@ -171,7 +171,7 @@
                 <div class="iconBlock"><i class="fas fa-network-wired"></i>
                     <h5>Subdomains</h5>
                     <hr>
-                    <p>In addition to numerous other services we are able to provide via our hosted services, we can divide your website into two with subdomains. If you are not sure what a subdomain is, images is a subdomain of google: <a href="https://images.google.com/">https://images.google.com/</a>. This service <strong>starts at $100</strong> for our hosted clients, depending on the size and complexity of your site as well as the routeing configurations you need.</p>
+                    <p>In addition to numerous other services we are able to provide via our hosted services, we can divide your website into two with subdomains. If you are not sure what a subdomain is, images is a subdomain of google: <a href="https://images.google.com/" target="_blank">https://images.google.com/</a>. This service <strong>starts at $100</strong> for our hosted clients, depending on the size and complexity of your site as well as the routeing configurations you need.</p>
                 </div>
             </div>
         </section>
@@ -188,7 +188,7 @@
                 <div class="iconBlock"><i class="fab fa-searchengin"></i>
                     <h5>Premium SEO Maintenance</h5>
                     <hr>
-                    <p>Search Engine Optimization (SEO) is the continuing effort to improve your site's organic search engine ranking on Google and other search engines. A very high precentage of internet traffic flows to businesses that rank organically on page 1, thus the higher your site ranks, the more likely it is to be noticed by potential clients. We strictly adhere to <a href="https://developers.google.com/search/docs/beginner/seo-starter-guide">Google's ranking criteria</a> and employ a few of our own SEO techniques as well. Our premium SEO services begin at <strong>$750 per month</strong>.</p>
+                    <p>Search Engine Optimization (SEO) is the continuing effort to improve your site's organic search engine ranking on Google and other search engines. A very high precentage of internet traffic flows to businesses that rank organically on page 1, thus the higher your site ranks, the more likely it is to be noticed by potential clients. We strictly adhere to <a href="https://developers.google.com/search/docs/beginner/seo-starter-guide" target="_blank">Google's ranking criteria</a> and employ a few of our own SEO techniques as well. Our premium SEO services begin at <strong>$750 per month</strong>.</p>
                 </div>
                 <div class="iconBlock"><i class="far fa-lightbulb"></i>
                     <h5>Digital Marketing</h5>
