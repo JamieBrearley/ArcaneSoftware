@@ -22,7 +22,7 @@
                 <li><a href="<?php echo ROOT_DIR; ?>creation/ecommerce_design.php">eCommerece Web Design</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/website_photography.php">Website Photography</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/website_hosting.php">Website Hosting</a></li>
-                <li><a href="<?php echo ROOT_DIR; ?>creation/graphic_design.php">Graphic Design</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>creation/graphic_design.php">Visual Design</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>creation/website_management.php">Website Management</a></li>
             </ul>
             <ul>
@@ -32,9 +32,8 @@
                 <li><a href="<?php echo ROOT_DIR; ?>marketing/seo.php">Search Engine Optimisation (SEO)</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>marketing/social_media.php">Social Media</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>marketing/content_marketing.php">Content Marketing</a></li>
-                <li><a href="<?php echo ROOT_DIR; ?>marketing/digital_marketing.php">Digital Marketing Agency</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>marketing/digital_marketing.php">Digital Marketing</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>marketing/google_ads_adwords.php">Google Ads / Adwords</a></li>
-                <li><a href="<?php echo ROOT_DIR; ?>marketing/messenger_bots.php">Messenger Bots</a></li>
             </ul>
             <ul>
                 <li>
