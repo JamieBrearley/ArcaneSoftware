@@ -21,6 +21,12 @@ h2 {
   text-transform: uppercase;
 }
 
+h3,
+h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 h5,
 h6 {
   margin-bottom: 10px;
@@ -43,7 +49,9 @@ h6 {
   font-size: 1rem;
 }
 
-h1 .fancy {
+h1 .fancy,
+h2 .fancy,
+h3 .fancy {
   font-family: "PermanentMarker";
   color: var(--highlight);
   font-weight: 300;
@@ -52,6 +60,7 @@ h1 .fancy {
 p {
   text-align: center;
   line-height: 1.5rem;
+  font-size: 1.1rem;
 }
 
 p .fancy {
