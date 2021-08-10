@@ -37,7 +37,7 @@
     <meta name="robots" content="noindex">
 </head>
 
-<body style="opacity: 0; margin:0">
+<body style="opacity: 0; margin:0 !important">
     <main>
         <section style="height: 100vh;">
             <h1><span class="fancy">Error 403:</span> Forbidden</h1>
