@@ -52,7 +52,7 @@ $htmlmsg .= "<p>Additional Info: $message</p>";
 
 // $msg = wordwrap($msg, 70);
 
-require_once '../vendor/autoload.php';
+require_once '/vendor/autoload.php';
 
 // This address must be verified with Amazon SES.
 $sender = 'jamie.brearley@arcanesoftware.com.au';
