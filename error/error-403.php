@@ -3,8 +3,8 @@
 
 <head>
     <?php require_once('inc/head.php'); ?>
-    <title>Arcane Software - Error 404</title>
-
+    <title>Arcane Software - Error 403</title>
+    <meta name="robots" content="noindex">
 </head>
 
 <body style="opacity: 0;">
@@ -12,8 +12,8 @@
     <main>
         <?php require('inc/hamburgerBtn.php'); ?>
         <section>
-            <h1>Error 404</h1>
-            <p>Page not found.</p>
+            <h1><span class="fancy">Error 403:</span> Forbidden</h1>
+            <p>Wait... Your not meant to be here!</p>
         </section>
     </main>
     <?php require_once('inc/footer.php'); ?>
