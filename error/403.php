@@ -38,9 +38,7 @@
 </head>
 
 <body style="opacity: 0;">
-    <?php require_once('https://www.arcanesoftware.com.au/inc/header.php'); ?>
     <main>
-        <?php require('https://www.arcanesoftware.com.au/inc/hamburgerBtn.php'); ?>
         <section>
             <h1><span class="fancy">Error 403:</span> Forbidden</h1>
             <p>Wait... Your not meant to be here!</p>

@@ -38,9 +38,7 @@
 </head>
 
 <body style="opacity: 0;">
-    <?php require_once('https://www.arcanesoftware.com.au/inc/header.php'); ?>
     <main>
-        <?php require('https://www.arcanesoftware.com.au/inc/hamburgerBtn.php'); ?>
         <section>
             <h1><span class="fancy">Error 401:</span> Unauthorised</h1>
             <p>Excuse me sir... do you have any ID with you?</p>

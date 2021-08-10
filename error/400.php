@@ -38,9 +38,7 @@
 </head>
 
 <body style="opacity: 0;">
-    <?php require_once('https://www.arcanesoftware.com.au/inc/header.php'); ?>
     <main>
-        <?php require('https://www.arcanesoftware.com.au/inc/hamburgerBtn.php'); ?>
         <section>
             <h1><span class="fancy">Error 400:</span> Bad Request</h1>
             <p>Excuse me, do you have something to do with this corrupted request?</p>

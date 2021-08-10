@@ -38,9 +38,7 @@
 </head>
 
 <body style="opacity: 0;">
-    <?php require_once('https://www.arcanesoftware.com.au/inc/header.php'); ?>
     <main>
-        <?php require('https://www.arcanesoftware.com.au/inc/hamburgerBtn.php'); ?>
         <section>
             <h1><span class="fancy">Error 404:</span> Page not found.</h1>
             <p>The goblins ran away with the damn page again..</p>
