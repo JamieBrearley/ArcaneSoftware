@@ -37,9 +37,9 @@
     <meta name="robots" content="noindex">
 </head>
 
-<body style="opacity: 0;">
+<body style="opacity: 0; margin:0">
     <main>
-        <section>
+        <section style="height: 100vh;">
             <h1><span class="fancy">Error 401:</span> Unauthorised</h1>
             <p>Excuse me sir... do you have any ID with you?</p>
             <a href="https://arcanesoftware.com.au" title="home page">Return to Homepage</a>
