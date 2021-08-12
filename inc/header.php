@@ -2,7 +2,7 @@
     <div class="offcanvas offcanvas-start" tabindex="-1" id="hamburgerMenu" aria-labelledby="hamburgerMenuLabel">
         <div class="offcanvas-header">
             <a class="offcanvas-title" href="<?php echo ROOT_DIR . 'index.php'; ?>">
-                <img src="<?php echo ROOT_DIR; ?>assets/logo/logo_only.svg" alt="Arcane Software Logo">
+                <img src="<?php echo ROOT_DIR; ?>assets/logo/logo_only.svg" class="logo" alt="Arcane Software Logo">
                 <h5 class="text-center brand-name" id="hamburgerMenuLabel">Arcane <span>Software</span></h5>
             </a>
             <button type="button" class="hamburgerClose" data-bs-dismiss="offcanvas" aria-label="Close">
