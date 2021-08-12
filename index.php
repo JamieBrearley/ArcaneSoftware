@@ -20,7 +20,7 @@
             margin-bottom: 2rem;
         }
 
-        @media (max-width: 1100px) {
+        @media (max-width: 800px) {
             #logo {
                 width: 50vw;
             }
