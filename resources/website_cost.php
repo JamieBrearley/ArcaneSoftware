@@ -40,7 +40,7 @@
             <p class="overline">Transparency and trust are essential in business partnerships, therefore we make sure our clients know exactly what they're paying for and how we arrive at our prices.</p>
             <p>How much does a website cost is one of the most often asked questions. Take a seat because we're going to try to answer it. Because every company is distinct and has various aims, determining how much a website costs is mainly determined by what the company wants, needs, and expects from their site. Consider the following examples:</p>
 
-            <h4><span class="fancy">50% off</span> selected services for the next 10 clients!</h4>
+            <h4><span class="fancy">50% off</span> select services!</h4>
 
             <div class="iconBlockWrapper">
                 <div id="flyer" class="iconBlock">
