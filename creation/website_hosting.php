@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once('../inc/head.php'); ?>
-    <title>Arcane Software - Web Hosting</title>
+    <title>Arcane Software | Web Hosting</title>
 
     <meta name="description" content="The instances we use let us increase or decrease the capacity of your servers quickly, without having to wait. The SLA commitment for our regions is 99.99% availability and each region consists of at least 3 zones, so if one zone goes down another can take its place seamlessly!" />
 

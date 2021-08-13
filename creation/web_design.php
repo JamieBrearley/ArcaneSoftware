@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once('../inc/head.php'); ?>
-    <title>Arcane Software - Web Design</title>
+    <title>Arcane Software | Web Design</title>
 
     <meta name="description" content="In today's competitive online platform, getting your visitor's attention right away is critical. It's essential that your company provides an excellent first impression and encourages people to interact with and explore your website." />
 

@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once('../inc/head.php'); ?>
-    <title>Arcane Software - Web Development</title>
+    <title>Arcane Software | Web Development</title>
 
     <meta name="description" content="No one else has the freedom we have. We use raw HTML, CSS, JavaScript and PHP to make you stand out among your competitors, and not just in a flashy way. No matter what industry or scenario you're looking for, you'll stand out amongst competitors by using our custom solutions." />
 
