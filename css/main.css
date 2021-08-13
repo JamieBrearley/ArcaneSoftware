@@ -140,9 +140,8 @@ input {
 
 strong {
   font-family: Helvetica;
-  font-weight: 300;
-  color: var(--highlight);
-  /* font-size: 1.5rem; */
+  font-weight: 600;
+  color: var(--strongColor);
 }
 
 section {
