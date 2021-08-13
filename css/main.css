@@ -139,9 +139,8 @@ input {
 }
 
 strong {
-  font-family: Helvetica;
   font-weight: 600;
-  color: var(--strongColor);
+  color: var(--highlight);
 }
 
 section {
