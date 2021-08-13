@@ -51,7 +51,8 @@ h6 {
 
 h1 .fancy,
 h2 .fancy,
-h3 .fancy {
+h3 .fancy,
+h4 .fancy {
   font-family: "PermanentMarker";
   color: var(--highlight);
   font-weight: 300;
