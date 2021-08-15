@@ -22,7 +22,7 @@
         <section>
             <h1>Website <span class="fancy">Management</span> Services of Superior Quality</h1>
             <p>Arcane Software is here to make sure that your company never again has to worry about managing their website. We have a diverse range of experienced individuals from many digital disciplines, so no matter what you need help with we can provide it! Services include domain transfers, local web hosting and making content changes, but the list goes on from there. At Arcane Software we offer complete website management services for companies like yours.</p>
-            <p>Arcane software provides safe and reliable web hosting solutions in order to maintain our clients' most valuable asset: their online presence. Employing some of the best backend developers around, we are able to get things done quickly while still maintaining quality craftsmanship.</p>
+            <p>Arcane Software provides safe and reliable web hosting solutions in order to maintain our clients' most valuable asset: their online presence. Employing some of the best developers around, we are able to get things done quickly while still maintaining quality craftsmanship.</p>
         </section>
         <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-management-512.jpg" alt="Arcane Software webDesign" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-management-1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-management-512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-management-256.jpg 256w">
         <section>
