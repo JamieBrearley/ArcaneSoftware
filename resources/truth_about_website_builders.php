@@ -57,7 +57,7 @@
         </section>
         <section>
             <h2>Site Management</h2>
-            <p>If you create a website with a web builder, you must host it on their servers. It won't let you export it and put it somewhere else. If you go with the free option, their name will display in the domain address (which is plainly unprofessional), and if you use your own domain, you will be charged a hosting cost. In either scenario, you're enslaved to a system over which you have no control and which, over time, may cost you as much to maintain as employing a <a href="../creation/web_design.php">professional web designer</a>.</p>
+            <p>If you create a website with a web builder, you must host it on their servers. It won't let you export it and put it somewhere else. If you go with the free option, their name will display in the domain address (which is plainly unprofessional), and if you use your own domain, you will be charged a hosting cost. In either scenario, you're enslaved to a system over which you have no control and which, over time, may cost you as much to maintain as employing a <a href="../websolutions/web_design.php">professional web designer</a>.</p>
         </section>
         <section>
             <h2>Ownership</h2>

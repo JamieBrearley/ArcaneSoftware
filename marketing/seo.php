@@ -73,7 +73,7 @@
         </section>
         <section>
             <h2>Powered by statistics and <span class="fancy">performance</span></h2>
-            <p>At Arcane Software we are dedicated to helping businesses reclaim their territory on Google's first page—for life. With years of experience watching trends and analyzing metrics, our experts have made it possible for companies to truly see what how they're doing via monthly reports. Keep climbing up the ranks with an <a href="../contact_us.php">Arcane Software audit</a> today!</p>
+            <p>At Arcane Software we are dedicated to helping businesses reclaim their territory on Google's first page—for life. With years of experience watching trends and analysing metrics, our experts have made it possible for companies to truly see what how they're doing via monthly reports. Keep climbing up the ranks with an <a href="../contact_us.php">Arcane Software audit</a> today!</p>
             <div class="iconBlockWrapper">
                 <div class="iconBlock"><i class="fas fa-map-marker-alt"></i>
                     <h5>Local</h5>

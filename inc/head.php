@@ -1,7 +1,7 @@
 <?php
 $dir = '';
 if (
-    strpos($_SERVER['REQUEST_URI'], 'creation') ||
+    strpos($_SERVER['REQUEST_URI'], 'websolutions') ||
     strpos($_SERVER['REQUEST_URI'], 'marketing') ||
     strpos($_SERVER['REQUEST_URI'], 'resources') ||
     strpos($_SERVER['REQUEST_URI'], 'error')

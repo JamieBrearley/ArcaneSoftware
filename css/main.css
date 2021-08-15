@@ -58,6 +58,13 @@ h4 .fancy {
   font-weight: 300;
 }
 
+h2 .logo {
+  font-size: 3.7rem;
+  color: var(--highlight);
+  font-family: "SonySketch";
+  font-weight: 300;
+}
+
 p {
   text-align: center;
   line-height: 1.5rem;
