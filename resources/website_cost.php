@@ -40,34 +40,28 @@
             <p class="overline">Transparency and trust are essential in business partnerships, therefore we make sure our clients know exactly what they're paying for and how we arrive at our prices.</p>
             <p>How much does a website cost is one of the most often asked questions. Take a seat because we're going to try to answer it. Because every company is distinct and has various aims, determining how much a website costs is mainly determined by what the company wants, needs, and expects from their site. Consider the following examples:</p>
 
-            <h4><span class="fancy">50% off</span> select services!</h4>
-
             <div class="iconBlockWrapper">
                 <div id="flyer" class="iconBlock">
                     <i class="fas fa-book-open"></i>
                     <h5>Flyer</h5>
                     <hr>
-                    <p><strong><s>~$1,000 - ~$5,000</s><br>~$500 - ~$2,500</strong></p>
                     <p>Website only for customers to obtain information. Does not include any forms, intended to display information with styling and animations, typically used for Patreon services, weddings and other events.</p>
                 </div>
                 <div id="marketing" class="iconBlock"><i class="fas fa-bullhorn"></i>
                     <h5>Marketing</h5>
                     <hr>
-                    <p><strong><s>~$3,000 - ~$7,500</s><br>~$1,500 - ~$3,750</strong></p>
                     <p>Website to attract new customers by promoting your services and/or products. Includes forms for customer inquires and other desired information, results are emailed.</p>
                 </div>
                 <div id="dataStorage" class="iconBlock">
                     <i class="fas fa-comments-dollar"></i>
                     <h5>Data Storage</h5>
                     <hr>
-                    <p><strong><s>~$5,000 - ~$15,000</s><br>~$2,500 - ~$7,500</strong></p>
                     <p>Website designed to promote your product and services while being able to capture large amounts of data via forms, surveys, etc. Results are stored locally in a database.</p>
                 </div>
                 <div id="ecommerce" class="iconBlock">
                     <i class="fas fa-cash-register"></i>
                     <h5>eCommerce</h5>
                     <hr>
-                    <p><strong><s>~$10,000+</s><br>~$5,000+</strong></p>
                     <p>Allows your site to integrate with other services, include a payment gateway and can storage large amounts of data in a database.</p>
                 </div>
             </div>
@@ -93,19 +87,15 @@
                     <i class="fas fa-home"></i>
                     <h5>Domain Name</h5>
                     <hr>
-                    <p>
-                        Popular companies such as <a href="https://au.godaddy.com/" title='go daddy' target="_blank">GoDaddy</a> and <a href="https://www.crazydomains.com.au/" title="crazy domains" target="_blank">Crazy Domains</a> charge between <strong>$15 - $50 each year</strong>. Although, a valid ABN is required in order to acquire a .com.au domain name.</p>
-                    <p>
-                        With every connected transaction, Arcane Software provides free DNS and domain maintenance. Assisting our customers with this low maintenance yet complex task.</p>
+                    <p>Popular companies such as <a href="https://au.godaddy.com/" title='go daddy' target="_blank">GoDaddy</a> and <a href="https://www.crazydomains.com.au/" title="crazy domains" target="_blank">Crazy Domains</a> charge between <strong>$15 - $50 each year</strong>. Although, a valid ABN is required in order to acquire a .com.au domain name.</p>
+                    <p>With every connected transaction, Arcane Software provides free DNS and domain maintenance. Assisting our customers with this low maintenance yet complex task.</p>
                 </div>
                 <div class="iconBlock">
                     <i class="fas fa-plug"></i>
                     <h5>Hosting</h5>
                     <hr>
-                    <p>
-                        Your website must be hosted online in order for others to view it. For your convenience, Arcane Software hosts its services on Amazon Web Services (AWS). Which allows us to provide customers a 99.99% monthly uptime percentage. </p>
-                    <p>
-                        Our hosting service is priced as per requirement but always includes weekly site backups and server maintenance. <a href="#flyer">Flyer</a> is charged at <strong>only $75 per year</strong>, <a href="#marketing">Marketing</a> is charged at <strong>$200 per year</strong> and larger sites such as <a href="#dataStorage">Data Storage</a> and <a href="#ecommerce">eCommerce</a> start at <strong>$350 per year</strong>.</p>
+                    <p>Your website must be hosted online in order for others to view it. For your convenience, Arcane Software hosts its services on Amazon Web Services (AWS). Which allows us to provide customers a 99.99% monthly uptime percentage. </p>
+                    <p>Our hosting service is priced as per requirement but always includes site backups and server maintenance.</p>
                 </div>
             </div>
         </section>
@@ -127,7 +117,7 @@
                 <div class="iconBlock"><i class="fas fa-camera"></i>
                     <h5>We Create the Content</h5>
                     <hr>
-                    <p>Everything is created by our editors and publishers. It's a regular request that almost always produces the greatest outcomes. We create material that promotes your company as a leader after studying the industry and analysing the competition. Our <strong>writing services cost <s>$120</s> $60 per hour</strong>, and a half-day of <strong>on-location photography costs <s>$500</s> $250</strong>. If stock photos are required, we devote the necessary effort to finding high-quality images. Anyone who has spent time searching for stock pictures understands how soul-destroying it can be — luckily, we know where to get the perfect images!</p>
+                    <p>Everything is created by our editors and publishers. It's a regular request that almost always produces the greatest outcomes. We create material that promotes your company as a leader after studying the industry and analysing the competition. We offer writing services and on-location photography. However, if stock photos are required, we devote the necessary effort to finding high-quality images. Anyone who has spent time searching for stock pictures understands how soul-destroying it can be — luckily, we know where to get the perfect images!</p>
                 </div>
             </div>
         </section>
@@ -139,7 +129,7 @@
                 <div class="iconBlock"><i class="fas fa-pencil-ruler"></i>
                     <h5>Web Design</h5>
                     <hr>
-                    <p>Color palettes, font styles, layout, visual design, and navigation are all included. All of our designs are fully responsive (they operate on all screens sizes) and emphasise the use of design to increase engagement and conversion rates. Our web design services are offered at around <strong><s>$95</s> $47.50 per hour</strong>.</p>
+                    <p>Color palettes, font styles, layout, visual design, and navigation are all included. All of our designs are fully responsive (they operate on all screens sizes) and emphasise the use of design to increase engagement and conversion rates.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-photo-video"></i>
                     <h5>Photo Source Sets</h5>
@@ -154,7 +144,7 @@
                 <div class="iconBlock"><i class="fas fa-search"></i>
                     <h5>Search Engine Optimisation (SEO)</h5>
                     <hr>
-                    <p>Long-term success requires a continuous SEO strategy. If your company is interested in getting started with SEO, <strong>the cost starts at <s>$500</s> $250</strong>. Page meta tags, social media meta tags, picture size and compression and code weight minimisation are all included.</p>
+                    <p>Long-term success requires a continuous SEO strategy. If your company is interested in getting started with SEO we are more than happy to provide our expertise. More competitive titles and headers, page meta tags, social media meta tags, picture size and compression and code weight minimisation are all included.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-chart-line"></i>
                     <h5>Analytics</h5>
@@ -164,7 +154,7 @@
                 <div class="iconBlock"><i class="fas fa-cash-register"></i>
                     <h5>eCommerce</h5>
                     <hr>
-                    <p>We provide a variety of eCommerce solutions, including one powered by WooCommerce, another powered by Shopify, and a totally customised solution. Depending on the amount of products and features required.</p>
+                    <p>We provide a wide range of eCommerce services. Stripe, a fully integrated suite of payment solutions, is our prefered payment gateway. However, if you would prefer not to utilise Stripe for any reason, we are more than happy to integrate any payment method you choose.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-poll-h"></i>
                     <h5>Forms and Surveys</h5>
@@ -174,12 +164,12 @@
                 <div class="iconBlock"><i class="fas fa-file-image"></i>
                     <h5>Custom Website Caching</h5>
                     <hr>
-                    <p>Thanks to the technology we've chosen to utilise, when you host your website on our servers, we can provide various customisation benefits such as creating custom cache rules, saving money on technical consultants, and enhancing customer satisfaction. This service is available to our hosted clients <strong>from <s>$100</s> $50</strong>, depending on the size and complexity of your site as well as the cache settings you require.</p>
+                    <p>Thanks to the technology we've chosen to utilise, when you host your website on our servers, we can provide various customisation benefits such as creating custom cache rules, saving money on technical consultants, and enhancing customer satisfaction. This service is available to our hosted clients, with costs determined by the size and complexity of your site as well as the cache settings you require.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-network-wired"></i>
                     <h5>Subdomains</h5>
                     <hr>
-                    <p>In addition to numerous other services we are able to provide via our hosted services, we can divide your website into two with subdomains. If you are not sure what a subdomain is, images is a subdomain of google: <a href="https://images.google.com/" target="_blank">https://images.google.com/</a>. This service <strong>starts at <s>$100</s> $50</strong> for our hosted clients, depending on the size and complexity of your site as well as the routeing configurations you need.</p>
+                    <p>In addition to numerous other services we are able to provide via our hosted services, we can divide your website into two with subdomains. If you are not sure what a subdomain is, images is a subdomain of google: <a href="https://images.google.com/" target="_blank">https://images.google.com/</a>. The cost of this service varies depending on the size and complexity of your site as well as the routeing configurations you need.</p>
                 </div>
             </div>
         </section>
@@ -190,23 +180,23 @@
                     <h5>Site Maintenance</h5>
                     <hr>
                     <p>No WordPress. No WordPress plugin update charge.</p>
-                    <p>Maintaining your website entails keeping it up to date and error-free. This might include changing the site's content, adding new forms, or adding extra pages. Ongoing maintenance is charged on a job-by-job basis, with rates ranging from <strong><s>$70 to $95</s> $35 to $47.50 per hour</strong> depending on the complexity.</p>
+                    <p>Maintaining your website entails keeping it up to date and error-free. This might include changing the site's content, adding new forms, or adding extra pages. Ongoing maintenance is charged on a job-by-job basis and rates vary depending on the complexity.</p>
                     <p>If any problems are discovered on your site, we will correct them for free, forever.</p>
                 </div>
                 <div class="iconBlock"><i class="fab fa-searchengin"></i>
                     <h5>Premium SEO Maintenance</h5>
                     <hr>
-                    <p>Search Engine Optimization (SEO) is the continuing effort to improve your site's organic search engine ranking on Google and other search engines. A very high precentage of internet traffic flows to businesses that rank organically on page 1, thus the higher your site ranks, the more likely it is to be noticed by potential clients. We strictly adhere to <a href="https://developers.google.com/search/docs/beginner/seo-starter-guide" target="_blank">Google's ranking criteria</a> and employ a few of our own SEO techniques as well. Our premium SEO services begin at <strong><s>$500</s> $250 per month</strong>.</p>
+                    <p>Search Engine Optimization (SEO) is the continuing effort to improve your site's organic search engine ranking on Google and other search engines. A very high precentage of internet traffic flows to businesses that rank organically on page 1, thus the higher your site ranks, the more likely it is to be noticed by potential clients. We strictly adhere to <a href="https://developers.google.com/search/docs/beginner/seo-starter-guide" target="_blank">Google's ranking criteria</a> and employ a few of our own SEO techniques as well.</p>
                 </div>
                 <div class="iconBlock"><i class="far fa-lightbulb"></i>
                     <h5>Digital Marketing</h5>
                     <hr>
-                    <p>Arcane Software executes efficient marketing strategies for our customers, from Google Ads to sponsored Facebook and Instagram posts. Prices are primarily determined by the size of your firm and what your rivals are willing to pay. Any marketing effort should have some defined KPIs so that the return on investment can be tracked. Expect to burn through <strong><s>$500</s> $250 a month and higher</strong> rather quickly in a reasonably competitive industry.</p>
+                    <p>Arcane Software executes efficient marketing strategies for our customers, from Google Ads to sponsored Facebook and Instagram posts. Prices are primarily determined by the size of your firm and what your rivals are willing to pay. Any marketing effort should have some defined KPIs so that the return on investment can be tracked.</p>
                 </div>
                 <div class="iconBlock"><i class="fas fa-bullhorn"></i>
                     <h5>Social Media Marketing</h5>
                     <hr>
-                    <p>Arcane Software will create and implement a custom social media plan that is suited to your company's needs. We'll figure out which platforms and types of content best connect with your target demographic - it's critical that you reach out to them on their preferred media. Social media marketing quotes vary depending on the method implemented, but a good beginning point would be <strong>$450 per month</strong>.</p>
+                    <p>Arcane Software will create and implement a custom social media plan that is suited to your company's needs. We'll figure out which platforms and types of content best connect with your target demographic - it's critical that you reach out to them on their preferred media. Social media marketing quotes vary depending on the method implemented.</p>
                 </div>
             </div>
         </section>
