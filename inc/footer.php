@@ -5,6 +5,8 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
 <script src="https://kit.fontawesome.com/57ed6e10c3.js" crossorigin="anonymous"></script>
 
 <script src="<?php echo ROOT_DIR; ?>js/global.js"></script>

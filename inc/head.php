@@ -21,6 +21,7 @@ define('ROOT_DIR', $dir);
 <link rel="stylesheet" href="<?php echo ROOT_DIR; ?>css/global.css">
 <link rel="stylesheet" href="<?php echo ROOT_DIR; ?>css/header.css">
 <link rel="stylesheet" href="<?php echo ROOT_DIR; ?>css/main.css">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="<?php echo ROOT_DIR; ?>assets/favicon/apple-touch-icon.png">
