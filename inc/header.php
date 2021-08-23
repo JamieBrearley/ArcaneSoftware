@@ -19,7 +19,7 @@
                 </li>
                 <li><a href="<?php echo ROOT_DIR; ?>websolutions/web_design.php">Web Design</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>websolutions/web-dev.php">Web Development</a></li>
-                <li><a href="<?php echo ROOT_DIR; ?>websolutions/ecommerce_design.php">eCommerece Web Design</a></li>
+                <li><a href="<?php echo ROOT_DIR; ?>websolutions/ecommerce_design.php">eCommerce Web Design</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>websolutions/website_photography.php">Website Photography</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>websolutions/website_hosting.php">Website Hosting</a></li>
                 <li><a href="<?php echo ROOT_DIR; ?>websolutions/graphic_design.php">Visual Design</a></li>
