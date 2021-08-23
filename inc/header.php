@@ -47,7 +47,7 @@
                 <!-- <li><a href="tel:+1300 000 000">1300 000 000</a></li> -->
                 <li>
                     <!-- Calendly link widget begin -->
-                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/initial-consultation?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Book a consultation</a>
+                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Book a consultation</a>
                     <!-- Calendly link widget end -->
                 </li>
                 <li><a href="<?php echo ROOT_DIR; ?>contact_us.php">or drop us a message</a></li>
