@@ -28,7 +28,6 @@
         <section>
             <h2>We making <span class="fancy">selling</span> online a breeze</h2>
             <p>Arcane Software is an industry leader in eCommerce web design. We offer the knowledge and experience to give your business a competitive edge on any global marketplace, regardless of size or age.</p>
-            <p></p>
             <p>Arcane Software is a company devoted to the creation of beautiful, robust eCommerce storefronts for clients in need. We provide local hosting and administrative access so that you can manage your sales and inventory as efficiently as possible!</p>
             <p>Whether you're a local business or an international corporation, <a href="../marketing/seo.php">our diverse range of SEO</a> and <a href="../marketing/digital_marketing.php">digital marketing services</a> can help your products reach new customers!</p>
         </section>
