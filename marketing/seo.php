@@ -22,7 +22,7 @@
         <section>
             <h1>Brisbane-based SEO agency that <span class="fancy">propels your business</span> and produces results!</h1>
             <p>One of Brisbane's premier local SEO agencies, Arcane Software knows the importance of ranking on Google locally. Our field-tested strategies will help your site rank in the cities and suburbs that are most important to you.</p>
-            <a class="btn-animate" href="../contact_us.php">Free Consultation</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Free Consultation</a>
         </section>
         <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/seo_1024.jpg" alt="Arcane Software Search Engine Optimisation" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/seo_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/seo_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/seo_256.jpg 256w">
         <section>
@@ -144,7 +144,7 @@
                     <p>Through Ad Rank, the playing field is levelled because the highest bidder doesn't necessarily receive high ad rank. The system is backed by your SEO performance.</p>
                 </div>
             </div>
-            <a class="btn-animate" href="../contact_us.php">Discuss your business needs with us today!</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Discuss your business needs with us today!</a>
         </section>
     </main>
     <?php require_once('../inc/footer.php'); ?>

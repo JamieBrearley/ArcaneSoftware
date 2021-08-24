@@ -22,7 +22,7 @@
         <section>
             <h1>Innovative web design that will <span class="fancy">set your business apart</span></h1>
             <p>Awe-inspiring web solutions and enhanced functionality produce loyal customers.</p>
-            <a class="btn-animate" href="../contact_us.php">Free Consultation</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Free Consultation</a>
         </section>
         <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webDesign_1024.jpg" alt="Arcane Software webDesign" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webDesign_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webDesign_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/webDesign_256.jpg 256w">
         <section>

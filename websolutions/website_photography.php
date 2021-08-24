@@ -23,7 +23,7 @@
             <h1>Personalised <span class="fancy">Photography</span> for your website</h1>
             <p>The first impression is a killer when it comes to marketing. You want your call-to-action button and image to be the best of both worlds, but striking that perfect balance can make for an exhausting experience.</p>
             <p>When you're trying to create the right combination with your website's design, going through all possible options may seem exhaustively time consuming at times - especially if they aren't getting the expected results! Finding this specific combo is done one step at a time, by having strong visuals alongside great copywriting skills.</p>
-            <a class="btn-animate" href="../contact_us.php">Book a Photographer</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Book a Photographer</a>
         </section>
         <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/website-photography-512.jpg" alt="Arcane Software website photography" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/website-photography-1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/website-photography-512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/website-photography-256.jpg 256w">
         <section>
@@ -38,7 +38,7 @@
         <section>
             <h2>Photo Editing</h2>
             <p>Arcane Software are able to do high-quality photo editing, retouching, and more. Our experienced staff, are dedicated to providing you with the highest quality service possible. We work with a wide range of photo types, including landscape, portrait, event, wedding, and product photography to help your website stand out among its competitors.</p>
-            <a class="btn-animate" href="../contact_us.php">Enquire now!</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Enquire now!</a>
         </section>
     </main>
     <?php require_once('../inc/footer.php'); ?>

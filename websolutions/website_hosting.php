@@ -22,9 +22,9 @@
         <section>
             <h1>Hosting that is both <span class="fancy">affordable and dependable</span> for websites of any size</h1>
             <p>The instances we use let us increase or decrease the capacity of your servers quickly, without having to wait. The SLA commitment for our regions is 99.99% availability and each region consists of at least 3 zones, so if one zone goes down another can take its place seamlessly!</p>
-            <a class="btn-animate" href="../contact_us.php">Enquire about Web Hosting</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Enquire about Web Hosting</a>
         </section>
-        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-512.jpg" alt="Arcane Software webDesign" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-256.jpg 256w">
+        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-512.jpg" alt="Arcane Software web hosting" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-hosting-256.jpg 256w">
         <section>
             <h2>What is <span class="fancy">Web Hosting?</span></h2>
             <p>Web hosting is the process of renting space to house a website on the World Wide Web. Arcane Software offers a various plans for all needs with many different features including site maintenance, premium SEO maintenance, custom cache options and customer service!</p>

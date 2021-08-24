@@ -72,7 +72,7 @@
                 We make Australian businesses attractive and take flight through SEO, web design, digital marketing,
                 and social media.
             </p>
-            <a class="btn-animate" href="contact_us.php">Free consultation and quote</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Free consultation and quote</a>
         </section>
         <!-- <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_1024.jpg" alt="Arcane Software Logo" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/logo_256.jpg 256w"> -->
 
@@ -84,7 +84,7 @@
             <p>Our designers, data-driven marketers, and digital wizards understand what it takes to get results and
                 help a business reach its full potential. There are no binding contracts, no fine print, and no aggressive salespeople.
             </p>
-            <!-- <a class="btn-animate" href="contact_us.php">View Portfolio</a> -->
+            <!-- <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">View Portfolio</a> -->
         </section>
         <section>
             <h1>A results-driven development agency based in <span class="fancy">Brisbane.</span></h1>

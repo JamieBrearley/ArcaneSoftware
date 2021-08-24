@@ -22,9 +22,9 @@
         <section>
             <h1>Web Development Agency in <span class="fancy">Brisbane</span></h1>
             <p>Websites that are practical, user-friendly, and visually appealing.</p>
-            <a class="btn-animate" href="../contact_us.php">Get a free quote</a>
+            <a class="btn-animate" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/arcane-software/discovery-call?background_color=08000f&text_color=f3f7f7&primary_color=33ffff'});return false;">Get a free quote</a>
         </section>
-        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_512.jpg" alt="Arcane Software webDesign" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_256.jpg 256w">
+        <img id="pageImg" src="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_512.jpg" alt="Arcane Software web development" sizes="(max-width: 700px) 100vw, 70vw" srcset="https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_1024.jpg 1024w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_512.jpg 512w, https://arcane-software-bucket.s3.ap-southeast-2.amazonaws.com/images/web-development_256.jpg 256w">
         <section>
             <h2>What is <span class="fancy">Web Development?</span></h2>
             <p>Web design is all about the aesthetic of a site, while web development focuses more on how it functions. Web designers and developers must find that perfect balance between creativity and logic to make their sites stand out among competitors in today's market.</p>
